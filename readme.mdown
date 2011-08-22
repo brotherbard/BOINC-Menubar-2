@@ -1,0 +1,11 @@
+BOINCMenubar 2 is an alternate GUI manager for [BOINC](http://boinc.berkeley.edu/ "Berkeley Open Infrastructure for Network Computing"). It is a status menu item that lives on the right side of your menu bar. When you open the menu you get a quick overview of which projects have tasks running as well as other information about the projects that you set up yourself.
+
+The BOINCMenubar menu also has items for controlling BOINC running on a host computer and for controlling projects that are attached to that computer. The host computer can be the same one that is running BOINCMenubar or any computer on the local network running the [BOINC client](http://boinc.berkeley.edu/download.php "Download BOINC client software").
+
+There is a preference panel for setting up BOINCMenubar, for setting up all the preferences for the BOINC application itself and for attaching to and detaching from projects and account managers.
+
+To learn more about BOINC:
+
+[UC Berkeley's BOINC wiki](http://boinc.berkeley.edu/wiki/Main_Page "BOINC wiki at UC Berkeley")
+[Berkeley Open Infrastructure for Network Computing](http://en.wikipedia.org/wiki/Berkeley_Open_Infrastructure_for_Network_Computing "Berkeley Open Infrastructure for Network Computing at Wikipedia") at Wikipedia
+[Unofficial BOINC Wiki](http://www.boinc-wiki.info/ "Unofficial BOINC Wiki")
