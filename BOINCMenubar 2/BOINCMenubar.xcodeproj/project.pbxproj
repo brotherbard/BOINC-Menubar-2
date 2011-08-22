@@ -1,0 +1,1424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		D844529010791421001FE89D /* Distribution */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D84452951079144B001FE89D /* Build configuration list for PBXAggregateTarget "Distribution" */;
+			buildPhases = (
+				D844528F10791421001FE89D /* ShellScript */,
+			);
+			dependencies = (
+				D84452941079142D001FE89D /* PBXTargetDependency */,
+			);
+			name = Distribution;
+			productName = Distribution;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D8012CC00DE00EE90063BD66 /* BOINCGlobalPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D8012CBF0DE00EE90063BD66 /* BOINCGlobalPreferences.m */; };
+		D80187260F2418FB00C8B5C2 /* BOINCLogInWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80187240F2418FB00C8B5C2 /* BOINCLogInWindowController.m */; };
+		D8052A9D0EBEE6D90093447B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8052A9C0EBEE6D90093447B /* AddressBook.framework */; };
+		D8091B511017E9AE00F53085 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87C09C90FD34DEC005E1E40 /* Growl.framework */; };
+		D812AAC90DC70B4F002F4A3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D812AAC80DC70B4F002F4A3B /* InfoPlist.strings */; };
+		D81554121094DDFE00698637 /* BMBSoftwareUpdates.xib in Resources */ = {isa = PBXBuildFile; fileRef = D81554111094DDFE00698637 /* BMBSoftwareUpdates.xib */; };
+		D81554151094DE2C00698637 /* BMBSoftwareUpdatesController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81554141094DE2C00698637 /* BMBSoftwareUpdatesController.m */; };
+		D81BB6730F4F775400FFE030 /* BOINCActiveClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D81BB6720F4F775400FFE030 /* BOINCActiveClientManager.m */; };
+		D81DC9AA0F882F860065D0AC /* Appearance.png in Resources */ = {isa = PBXBuildFile; fileRef = D81DC9A90F882F860065D0AC /* Appearance.png */; };
+		D81DC9AD0F8830750065D0AC /* Projects.png in Resources */ = {isa = PBXBuildFile; fileRef = D81DC9AC0F8830750065D0AC /* Projects.png */; };
+		D81DCA830F892B1D0065D0AC /* BOINCMenubarIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D81DCA820F892B1D0065D0AC /* BOINCMenubarIcon.icns */; };
+		D81E096E0FC09239007F77FD /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = D81E096D0FC09239007F77FD /* Growl Registration Ticket.growlRegDict */; };
+		D81E0C4D0FC9BC3A007F77FD /* BOINCCreditMilestone.m in Sources */ = {isa = PBXBuildFile; fileRef = D81E0C4C0FC9BC3A007F77FD /* BOINCCreditMilestone.m */; };
+		D81F16010F429450006C7A55 /* BBXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D81F15FD0F429450006C7A55 /* BBXMLReader.m */; };
+		D81F16020F429450006C7A55 /* BBXMLParsingDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = D81F15FF0F429450006C7A55 /* BBXMLParsingDescription.m */; };
+		D822328E0F9B982D001FF94A /* BBAppSessionLoginState.m in Sources */ = {isa = PBXBuildFile; fileRef = D822328D0F9B982D001FF94A /* BBAppSessionLoginState.m */; };
+		D82ABF8C0DC701B8005F2A01 /* BOINCClientStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D82ABF8A0DC701B8005F2A01 /* BOINCClientStatus.m */; };
+		D833A7950F766B98008E0A1E /* BOINCProjectConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D833A7940F766B98008E0A1E /* BOINCProjectConfig.m */; };
+		D833A79B0F769F96008E0A1E /* BOINCAccountOut.m in Sources */ = {isa = PBXBuildFile; fileRef = D833A79A0F769F96008E0A1E /* BOINCAccountOut.m */; };
+		D833A7B70F76D6BE008E0A1E /* BOINCProjectAttach.m in Sources */ = {isa = PBXBuildFile; fileRef = D833A7B60F76D6BE008E0A1E /* BOINCProjectAttach.m */; };
+		D833AAFC0F801A2C008E0A1E /* BMBHostMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D833AAFB0F801A2C008E0A1E /* BMBHostMenuController.m */; };
+		D8342B2610C5A820009A00F8 /* appcast.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8342B2410C5A820009A00F8 /* appcast.xml */; };
+		D8342B2710C5A820009A00F8 /* appcastitems.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8342B2510C5A820009A00F8 /* appcastitems.xml */; };
+		D8342FAB10C95CD7009A00F8 /* release-notes.html in Resources */ = {isa = PBXBuildFile; fileRef = D8342FAA10C95CD7009A00F8 /* release-notes.html */; };
+		D8342FCA10C96168009A00F8 /* releasenotes.css in Resources */ = {isa = PBXBuildFile; fileRef = D8342FC910C96168009A00F8 /* releasenotes.css */; };
+		D84452551078E8AB001FE89D /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84452541078E8AB001FE89D /* Sparkle.framework */; };
+		D84452661078E8D4001FE89D /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D84452541078E8AB001FE89D /* Sparkle.framework */; };
+		D8445286107911D5001FE89D /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = D8445285107911D5001FE89D /* dsa_pub.pem */; };
+		D84939A60F474CCF00BED889 /* BMBAppearancePrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84939A50F474CCF00BED889 /* BMBAppearancePrefsController.m */; };
+		D8493A100F47896E00BED889 /* BOINCPlatforms.m in Sources */ = {isa = PBXBuildFile; fileRef = D8493A0F0F47896E00BED889 /* BOINCPlatforms.m */; };
+		D84DB6AF0E7508CE009A8998 /* BOINCIconActive.tif in Resources */ = {isa = PBXBuildFile; fileRef = D84DB6AE0E7508CE009A8998 /* BOINCIconActive.tif */; };
+		D84DB72B0E7513B9009A8998 /* BOINCLogo128x128.tif in Resources */ = {isa = PBXBuildFile; fileRef = D84DB72A0E7513B9009A8998 /* BOINCLogo128x128.tif */; };
+		D84E27E30DA7DD39002E7734 /* BOINCIconOff.tif in Resources */ = {isa = PBXBuildFile; fileRef = D84E27DC0DA7DD39002E7734 /* BOINCIconOff.tif */; };
+		D84E28040DA7DE22002E7734 /* BMBAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E28020DA7DE22002E7734 /* BMBAppController.m */; };
+		D84E280E0DA7DE2E002E7734 /* BMBStatusMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E28050DA7DE2E002E7734 /* BMBStatusMenuController.m */; };
+		D84E280F0DA7DE2E002E7734 /* BMBProjectMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E28070DA7DE2E002E7734 /* BMBProjectMenuController.m */; };
+		D84E28160DA7DE3E002E7734 /* BOINCClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E28120DA7DE3E002E7734 /* BOINCClient.m */; };
+		D84E28170DA7DE3E002E7734 /* BOINCHostConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E28140DA7DE3E002E7734 /* BOINCHostConnection.m */; };
+		D84E28210DA7DE49002E7734 /* BOINCURL.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E281A0DA7DE49002E7734 /* BOINCURL.m */; };
+		D84E28220DA7DE49002E7734 /* BOINCTask.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E281C0DA7DE49002E7734 /* BOINCTask.m */; };
+		D84E28230DA7DE49002E7734 /* BOINCProject.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E281E0DA7DE49002E7734 /* BOINCProject.m */; };
+		D84E282D0DA7DE53002E7734 /* BB_XMLNodeXPathCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D84E28290DA7DE53002E7734 /* BB_XMLNodeXPathCategory.m */; };
+		D85DE48B0E8A064D009B5F43 /* BOINCNetProxySettings.m in Sources */ = {isa = PBXBuildFile; fileRef = D85DE48A0E8A064D009B5F43 /* BOINCNetProxySettings.m */; };
+		D85F69930FE58D2700D49E88 /* FeedbackReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85F69920FE58D2700D49E88 /* FeedbackReporter.framework */; };
+		D85F69990FE58D2B00D49E88 /* FeedbackReporter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D85F69920FE58D2700D49E88 /* FeedbackReporter.framework */; };
+		D85F9A610FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D85F9A600FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.m */; };
+		D85F9A890FACFD9D00BBD8B2 /* BOINCSyncWithAccountManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85F9A880FACFD9D00BBD8B2 /* BOINCSyncWithAccountManager.xib */; };
+		D85F9A8E0FAD08B100BBD8B2 /* AccountManagerNotes.html in Resources */ = {isa = PBXBuildFile; fileRef = D85F9A8C0FAD08B100BBD8B2 /* AccountManagerNotes.html */; };
+		D85F9ED60FB7AE8800BBD8B2 /* BOINCNetStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = D85F9ED50FB7AE8800BBD8B2 /* BOINCNetStatistics.m */; };
+		D85F9EDB0FB7AEAC00BBD8B2 /* BOINCTimeStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = D85F9EDA0FB7AEAC00BBD8B2 /* BOINCTimeStatistics.m */; };
+		D864E8200F0F4E1B00DBB4C2 /* BOINCKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D864E81F0F0F4E1B00DBB4C2 /* BOINCKeychainItem.m */; };
+		D864EB0A0F1037A300DBB4C2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D864EB090F1037A300DBB4C2 /* Security.framework */; };
+		D864F40C0F1715E200DBB4C2 /* BBLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D864F40B0F1715E200DBB4C2 /* BBLog.m */; };
+		D86583F40DB2E6D500C6B03A /* BMBHostsPrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86583F30DB2E6D500C6B03A /* BMBHostsPrefController.m */; };
+		D86584310DB2F9B100C6B03A /* BMBGeneralPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86584300DB2F9B100C6B03A /* BMBGeneralPrefsController.m */; };
+		D86584340DB2F9CA00C6B03A /* BOINCProjectsPrefController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86584330DB2F9CA00C6B03A /* BOINCProjectsPrefController.m */; };
+		D86584370DB2F9E500C6B03A /* BOINCPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86584360DB2F9E500C6B03A /* BOINCPrefsController.m */; };
+		D865843A0DB2F9F700C6B03A /* BOINCNetworkPrefsContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = D86584390DB2F9F700C6B03A /* BOINCNetworkPrefsContoller.m */; };
+		D86584740DB300BA00C6B03A /* BMBAdvancedPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86584730DB300BA00C6B03A /* BMBAdvancedPrefsController.m */; };
+		D86A34BF0F312BB600D78299 /* BOINCPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86A34BE0F312BB600D78299 /* BOINCPreferences.xib */; };
+		D86A37450F32F4E500D78299 /* BOINCNetworkPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D86A37440F32F4E500D78299 /* BOINCNetworkPreferences.xib */; };
+		D877B0F40DB9A12900FFE1B5 /* BOINCClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D877B0F30DB9A12900FFE1B5 /* BOINCClientManager.m */; };
+		D87A86140F0DDC040075E392 /* BMBEditHostInformationSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D87A86130F0DDC040075E392 /* BMBEditHostInformationSheet.m */; };
+		D87B70DD0F1D5D0C00DDE1CA /* BOINCPlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D87B70DC0F1D5D0C00DDE1CA /* BOINCPlatform.m */; };
+		D87C09D20FD34E04005E1E40 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D87C09C90FD34DEC005E1E40 /* Growl.framework */; };
+		D87DAF960F2BE54E00B00C45 /* BOINCDailyTimeLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = D87DAF950F2BE54E00B00C45 /* BOINCDailyTimeLimits.m */; };
+		D87DB28F0F2D09DA00B00C45 /* BOINCClientVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = D87DB28E0F2D09DA00B00C45 /* BOINCClientVersion.m */; };
+		D87FD34C0DAFE1F500F81460 /* BMBPreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = D87FD34B0DAFE1F500F81460 /* BMBPreferenceWindowController.m */; };
+		D88B8B190F92CD0B006BA4C1 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = D88B8B180F92CD0B006BA4C1 /* License.txt */; };
+		D88C64790DA7C26800CAE159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97325FDCFA39411CA2CEA /* Foundation.framework */; };
+		D88C647A0DA7C27200CAE159 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B97324FDCFA39411CA2CEA /* AppKit.framework */; };
+		D88EB3E50EFC43BB00EB6EC9 /* ProjectDescription.html in Resources */ = {isa = PBXBuildFile; fileRef = D88EB3E40EFC43BB00EB6EC9 /* ProjectDescription.html */; };
+		D88EBA760F01CF9000EB6EC9 /* BMBNumbersOnlyFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EBA750F01CF9000EB6EC9 /* BMBNumbersOnlyFormatter.m */; };
+		D89322010DD0458A00230C6E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89322000DD0458A00230C6E /* WebKit.framework */; };
+		D893D9C910010F720054034A /* BOINCHostSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = D893D9C810010F720054034A /* BOINCHostSelectionController.m */; };
+		D893DA2D10011EA40054034A /* BOINCHostSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D893DA2C10011EA40054034A /* BOINCHostSelectionView.xib */; };
+		D893DA41100132A00054034A /* BMBClientSortDescriptors.m in Sources */ = {isa = PBXBuildFile; fileRef = D893DA40100132A00054034A /* BMBClientSortDescriptors.m */; };
+		D893DD391008D2EC0054034A /* credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D893DD381008D2EC0054034A /* credits.rtf */; };
+		D893DDD010093B7A0054034A /* BOINCProjectStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = D893DDCF10093B7A0054034A /* BOINCProjectStatistics.m */; };
+		D893DDDA1009407D0054034A /* BOINCDailyProjectStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = D893DDD91009407D0054034A /* BOINCDailyProjectStatistics.m */; };
+		D893DF0010096E4D0054034A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D893DEFF10096E4D0054034A /* QuartzCore.framework */; };
+		D897CE4F0EEC65A000196C14 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D897CE4D0EEC65A000196C14 /* Localizable.strings */; };
+		D897CEAA0EEC9C9100196C14 /* OtherProjects.html in Resources */ = {isa = PBXBuildFile; fileRef = D897CEA90EEC9C9100196C14 /* OtherProjects.html */; };
+		D897CEAC0EEC9CA700196C14 /* NoProjectDescription.html in Resources */ = {isa = PBXBuildFile; fileRef = D897CEAB0EEC9CA700196C14 /* NoProjectDescription.html */; };
+		D89882EC10135FC800E8157B /* BMBActivityWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D89882EB10135FC800E8157B /* BMBActivityWindow.m */; };
+		D89882EE1013605300E8157B /* BMBActivityWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89882ED1013605300E8157B /* BMBActivityWindow.xib */; };
+		D89C144B0F0ED0ED00B7E40D /* BOINCKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D89C144A0F0ED0ED00B7E40D /* BOINCKeychain.m */; };
+		D8A245240E615D95005111B7 /* Updates.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D8A245230E615D95005111B7 /* Updates.tiff */; };
+		D8A81EEF0FA4D6080043E41A /* BOINCAttachToAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A81EEE0FA4D6080043E41A /* BOINCAttachToAccountManager.m */; };
+		D8A821A80FA929240043E41A /* BMBEditHostInformationSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821A70FA929240043E41A /* BMBEditHostInformationSheet.xib */; };
+		D8A821AA0FA9293F0043E41A /* BMBHostsPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821A90FA9293F0043E41A /* BMBHostsPreferences.xib */; };
+		D8A821AC0FA929490043E41A /* BMBAdvancedPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821AB0FA929490043E41A /* BMBAdvancedPreferences.xib */; };
+		D8A821AE0FA929570043E41A /* BMBAppearancePreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821AD0FA929570043E41A /* BMBAppearancePreferences.xib */; };
+		D8A821B00FA9295F0043E41A /* BMBGeneralPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821AF0FA9295F0043E41A /* BMBGeneralPreferences.xib */; };
+		D8A821B20FA929670043E41A /* BMBPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821B10FA929670043E41A /* BMBPreferences.xib */; };
+		D8A821B40FA929720043E41A /* BMBProjectMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821B30FA929720043E41A /* BMBProjectMenu.xib */; };
+		D8A821B60FA9297C0043E41A /* BMBStatusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821B50FA9297C0043E41A /* BMBStatusMenu.xib */; };
+		D8A821B80FA929850043E41A /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821B70FA929850043E41A /* AboutWindow.xib */; };
+		D8A821BA0FA9298D0043E41A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821B90FA9298D0043E41A /* MainMenu.xib */; };
+		D8A821BC0FA9299A0043E41A /* BOINCProjectsPreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821BB0FA9299A0043E41A /* BOINCProjectsPreferences.xib */; };
+		D8A821BE0FA929A40043E41A /* BOINCAttatchToProjectSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821BD0FA929A40043E41A /* BOINCAttatchToProjectSheet.xib */; };
+		D8A821C00FA929AD0043E41A /* BOINCAttachToAccountManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821BF0FA929AD0043E41A /* BOINCAttachToAccountManager.xib */; };
+		D8A821C20FA929B80043E41A /* BOINCLoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A821C10FA929B80043E41A /* BOINCLoginWindow.xib */; };
+		D8A8908B0E46AA4600C15EFD /* BMBNumberBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A890890E46AA4600C15EFD /* BMBNumberBadge.m */; };
+		D8AE0ACC0F366C3300F22C62 /* BOINCHostInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE0ACB0F366C3300F22C62 /* BOINCHostInfo.m */; };
+		D8AE0AF80F366F2400F22C62 /* BOINCClientState.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AE0AF70F366F2400F22C62 /* BOINCClientState.m */; };
+		D8B5C7630F523D84002606F1 /* BMBAttributeInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C7620F523D84002606F1 /* BMBAttributeInfoView.m */; };
+		D8B5C7680F523DB4002606F1 /* BMBAttributeInfoStringCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B5C7670F523DB4002606F1 /* BMBAttributeInfoStringCell.m */; };
+		D8BC56280E21CE5900C0052B /* BOINCProjectSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BC56270E21CE5900C0052B /* BOINCProjectSummary.m */; };
+		D8C52F6B0FCA1F0A000589C4 /* BMBGrowlNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C52F6A0FCA1F0A000589C4 /* BMBGrowlNotifier.m */; };
+		D8C592790EAAFA3300272938 /* BOINCAttachToProjectSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C592780EAAFA3300272938 /* BOINCAttachToProjectSheet.m */; };
+		D8D589090F33BC700092476D /* BOINCProjectsSummaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D589080F33BC700092476D /* BOINCProjectsSummaryTree.m */; };
+		D8D58CD90F3575BF0092476D /* Platform Names.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8D58CD80F3575BF0092476D /* Platform Names.xml */; };
+		D8DE44BD0FA1F2EB00015959 /* BOINCClientProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DE44BC0FA1F2EB00015959 /* BOINCClientProcess.m */; };
+		D8DE4AB00FA3400700015959 /* BOINCMgr.icns in Resources */ = {isa = PBXBuildFile; fileRef = D880B8800DB141E8000BED9C /* BOINCMgr.icns */; };
+		D8DE4AC90FA343ED00015959 /* BOINCAccountManagerSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DE4AC80FA343ED00015959 /* BOINCAccountManagerSummary.m */; };
+		D8DE4B190FA3538500015959 /* BOINCAllProjectsList.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DE4B180FA3538500015959 /* BOINCAllProjectsList.m */; };
+		D8DE4B280FA3B0CA00015959 /* BOINCAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D8DE4B270FA3B0CA00015959 /* BOINCAccountManager.m */; };
+		D8DE4F130FA49F6900015959 /* AccountManagerDescription.html in Resources */ = {isa = PBXBuildFile; fileRef = D8DE4F120FA49F6900015959 /* AccountManagerDescription.html */; };
+		D8DE4F150FA49F6900015959 /* AccountManagerWithoutDescription.html in Resources */ = {isa = PBXBuildFile; fileRef = D8DE4F140FA49F6900015959 /* AccountManagerWithoutDescription.html */; };
+		D8DE619F0E6A0D930078C9B7 /* BOINCIconWithNetwork.tif in Resources */ = {isa = PBXBuildFile; fileRef = D8DE619E0E6A0D930078C9B7 /* BOINCIconWithNetwork.tif */; };
+		D8F303610F922F4F0005C0ED /* NSString+BB_CommonCryptoDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F303600F922F4F0005C0ED /* NSString+BB_CommonCryptoDigest.m */; };
+		D8F4C6E90DD0D4FB0090818A /* BOINCCommonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D8F4C6E80DD0D4FB0090818A /* BOINCCommonConstants.m */; };
+		D8FF92610F6C380600C220A3 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FF925F0F6C380600C220A3 /* AsyncSocket.m */; };
+		D8FF957B0F6D976D00C220A3 /* BOINCRPCStatusReply.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FF957A0F6D976D00C220A3 /* BOINCRPCStatusReply.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D84452931079142D001FE89D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = "BOINCMenubar 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D89C14350F0ECFCC00B7E40D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D84452661078E8D4001FE89D /* Sparkle.framework in CopyFiles */,
+				D85F69990FE58D2B00D49E88 /* FeedbackReporter.framework in CopyFiles */,
+				D87C09D20FD34E04005E1E40 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* BOINCMenubar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCMenubar_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* BOINCMenubar 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BOINCMenubar 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8012CBE0DE00EE90063BD66 /* BOINCGlobalPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCGlobalPreferences.h; path = "BOINC Model/BOINCGlobalPreferences.h"; sourceTree = "<group>"; };
+		D8012CBF0DE00EE90063BD66 /* BOINCGlobalPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCGlobalPreferences.m; path = "BOINC Model/BOINCGlobalPreferences.m"; sourceTree = "<group>"; };
+		D80187240F2418FB00C8B5C2 /* BOINCLogInWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCLogInWindowController.m; sourceTree = "<group>"; };
+		D80187250F2418FB00C8B5C2 /* BOINCLogInWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCLogInWindowController.h; sourceTree = "<group>"; };
+		D8052A9C0EBEE6D90093447B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
+		D812AABF0DC70AF0002F4A3B /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D815540F1094DDF500698637 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBSoftwareUpdates.xib; sourceTree = SOURCE_ROOT; };
+		D81554131094DE2C00698637 /* BMBSoftwareUpdatesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBSoftwareUpdatesController.h; path = "Preference Panel/BMBSoftwareUpdatesController.h"; sourceTree = "<group>"; };
+		D81554141094DE2C00698637 /* BMBSoftwareUpdatesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBSoftwareUpdatesController.m; path = "Preference Panel/BMBSoftwareUpdatesController.m"; sourceTree = "<group>"; };
+		D81BB6710F4F775400FFE030 /* BOINCActiveClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCActiveClientManager.h; sourceTree = "<group>"; };
+		D81BB6720F4F775400FFE030 /* BOINCActiveClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCActiveClientManager.m; sourceTree = "<group>"; };
+		D81DC9A90F882F860065D0AC /* Appearance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Appearance.png; path = Resources/Appearance.png; sourceTree = "<group>"; };
+		D81DC9AC0F8830750065D0AC /* Projects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Projects.png; path = Resources/Projects.png; sourceTree = "<group>"; };
+		D81DCA820F892B1D0065D0AC /* BOINCMenubarIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BOINCMenubarIcon.icns; path = Resources/BOINCMenubarIcon.icns; sourceTree = "<group>"; };
+		D81E096D0FC09239007F77FD /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Growl Registration Ticket.growlRegDict"; path = "Resources/Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		D81E0C4B0FC9BC3A007F77FD /* BOINCCreditMilestone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCCreditMilestone.h; sourceTree = "<group>"; };
+		D81E0C4C0FC9BC3A007F77FD /* BOINCCreditMilestone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCCreditMilestone.m; sourceTree = "<group>"; };
+		D81EA9FB0EA3451A0041AA58 /* BOINCAttatchToProjectSheet.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BOINCAttatchToProjectSheet.xib; path = ../../Resources/English.lproj/BOINCAttatchToProjectSheet.xib; sourceTree = "<group>"; };
+		D81F15FD0F429450006C7A55 /* BBXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBXMLReader.m; path = BBXMLReader/BBXMLReader.m; sourceTree = "<group>"; };
+		D81F15FE0F429450006C7A55 /* BBXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBXMLReader.h; path = BBXMLReader/BBXMLReader.h; sourceTree = "<group>"; };
+		D81F15FF0F429450006C7A55 /* BBXMLParsingDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBXMLParsingDescription.m; path = BBXMLReader/BBXMLParsingDescription.m; sourceTree = "<group>"; };
+		D81F16000F429450006C7A55 /* BBXMLParsingDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBXMLParsingDescription.h; path = BBXMLReader/BBXMLParsingDescription.h; sourceTree = "<group>"; };
+		D822328C0F9B982D001FF94A /* BBAppSessionLoginState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBAppSessionLoginState.h; path = App/BBAppSessionLoginState.h; sourceTree = "<group>"; };
+		D822328D0F9B982D001FF94A /* BBAppSessionLoginState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBAppSessionLoginState.m; path = App/BBAppSessionLoginState.m; sourceTree = "<group>"; };
+		D82ABF8A0DC701B8005F2A01 /* BOINCClientStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCClientStatus.m; path = "BOINC Model/BOINCClientStatus.m"; sourceTree = "<group>"; };
+		D82ABF8B0DC701B8005F2A01 /* BOINCClientStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCClientStatus.h; path = "BOINC Model/BOINCClientStatus.h"; sourceTree = "<group>"; };
+		D833A7930F766B98008E0A1E /* BOINCProjectConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCProjectConfig.h; path = "BOINC Model/BOINCProjectConfig.h"; sourceTree = "<group>"; };
+		D833A7940F766B98008E0A1E /* BOINCProjectConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCProjectConfig.m; path = "BOINC Model/BOINCProjectConfig.m"; sourceTree = "<group>"; };
+		D833A7990F769F96008E0A1E /* BOINCAccountOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCAccountOut.h; path = "BOINC Model/BOINCAccountOut.h"; sourceTree = "<group>"; };
+		D833A79A0F769F96008E0A1E /* BOINCAccountOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCAccountOut.m; path = "BOINC Model/BOINCAccountOut.m"; sourceTree = "<group>"; };
+		D833A7B50F76D6BE008E0A1E /* BOINCProjectAttach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCProjectAttach.h; path = "BOINC Model/BOINCProjectAttach.h"; sourceTree = "<group>"; };
+		D833A7B60F76D6BE008E0A1E /* BOINCProjectAttach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCProjectAttach.m; path = "BOINC Model/BOINCProjectAttach.m"; sourceTree = "<group>"; };
+		D833AAFA0F801A2C008E0A1E /* BMBHostMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBHostMenuController.h; path = "Status Menu/BMBHostMenuController.h"; sourceTree = "<group>"; };
+		D833AAFB0F801A2C008E0A1E /* BMBHostMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBHostMenuController.m; path = "Status Menu/BMBHostMenuController.m"; sourceTree = "<group>"; };
+		D8342B2410C5A820009A00F8 /* appcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appcast.xml; sourceTree = "<group>"; };
+		D8342B2510C5A820009A00F8 /* appcastitems.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appcastitems.xml; sourceTree = "<group>"; };
+		D8342DCB0DA9C61B00EA0FBD /* BOINCCommonConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCCommonConstants.h; sourceTree = "<group>"; };
+		D8342FAA10C95CD7009A00F8 /* release-notes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "release-notes.html"; sourceTree = "<group>"; };
+		D8342FC910C96168009A00F8 /* releasenotes.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = releasenotes.css; sourceTree = "<group>"; };
+		D84452541078E8AB001FE89D /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../Sparkle.framework; sourceTree = SOURCE_ROOT; };
+		D8445285107911D5001FE89D /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = dsa_pub.pem; path = Resources/dsa_pub.pem; sourceTree = "<group>"; };
+		D84856710E99ECC40011A4A1 /* BOINCProjectsPreferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BOINCProjectsPreferences.xib; path = ../../Resources/English.lproj/BOINCProjectsPreferences.xib; sourceTree = "<group>"; };
+		D84939A40F474CCF00BED889 /* BMBAppearancePrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBAppearancePrefsController.h; path = "Preference Panel/BMBAppearancePrefsController.h"; sourceTree = "<group>"; };
+		D84939A50F474CCF00BED889 /* BMBAppearancePrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBAppearancePrefsController.m; path = "Preference Panel/BMBAppearancePrefsController.m"; sourceTree = "<group>"; };
+		D84939A90F474D0C00BED889 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBAppearancePreferences.xib; sourceTree = SOURCE_ROOT; };
+		D8493A0E0F47896E00BED889 /* BOINCPlatforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCPlatforms.h; path = "BOINC Model/BOINCPlatforms.h"; sourceTree = "<group>"; };
+		D8493A0F0F47896E00BED889 /* BOINCPlatforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCPlatforms.m; path = "BOINC Model/BOINCPlatforms.m"; sourceTree = "<group>"; };
+		D84DB6AE0E7508CE009A8998 /* BOINCIconActive.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BOINCIconActive.tif; path = Resources/BOINCIconActive.tif; sourceTree = "<group>"; };
+		D84DB72A0E7513B9009A8998 /* BOINCLogo128x128.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BOINCLogo128x128.tif; path = Resources/BOINCLogo128x128.tif; sourceTree = "<group>"; };
+		D84E27DC0DA7DD39002E7734 /* BOINCIconOff.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BOINCIconOff.tif; path = Resources/BOINCIconOff.tif; sourceTree = "<group>"; };
+		D84E28020DA7DE22002E7734 /* BMBAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBAppController.m; path = App/BMBAppController.m; sourceTree = "<group>"; };
+		D84E28030DA7DE22002E7734 /* BMBAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBAppController.h; path = App/BMBAppController.h; sourceTree = "<group>"; };
+		D84E28050DA7DE2E002E7734 /* BMBStatusMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBStatusMenuController.m; path = "Status Menu/BMBStatusMenuController.m"; sourceTree = "<group>"; };
+		D84E28060DA7DE2E002E7734 /* BMBStatusMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBStatusMenuController.h; path = "Status Menu/BMBStatusMenuController.h"; sourceTree = "<group>"; };
+		D84E28070DA7DE2E002E7734 /* BMBProjectMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBProjectMenuController.m; path = "Status Menu/BMBProjectMenuController.m"; sourceTree = "<group>"; };
+		D84E28080DA7DE2E002E7734 /* BMBProjectMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBProjectMenuController.h; path = "Status Menu/BMBProjectMenuController.h"; sourceTree = "<group>"; };
+		D84E28120DA7DE3E002E7734 /* BOINCClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCClient.m; sourceTree = "<group>"; };
+		D84E28130DA7DE3E002E7734 /* BOINCClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCClient.h; sourceTree = "<group>"; };
+		D84E28140DA7DE3E002E7734 /* BOINCHostConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCHostConnection.m; sourceTree = "<group>"; };
+		D84E28150DA7DE3E002E7734 /* BOINCHostConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCHostConnection.h; sourceTree = "<group>"; };
+		D84E281A0DA7DE49002E7734 /* BOINCURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCURL.m; path = "BOINC Model/BOINCURL.m"; sourceTree = "<group>"; };
+		D84E281B0DA7DE49002E7734 /* BOINCURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCURL.h; path = "BOINC Model/BOINCURL.h"; sourceTree = "<group>"; };
+		D84E281C0DA7DE49002E7734 /* BOINCTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCTask.m; path = "BOINC Model/BOINCTask.m"; sourceTree = "<group>"; };
+		D84E281D0DA7DE49002E7734 /* BOINCTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCTask.h; path = "BOINC Model/BOINCTask.h"; sourceTree = "<group>"; };
+		D84E281E0DA7DE49002E7734 /* BOINCProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCProject.m; path = "BOINC Model/BOINCProject.m"; sourceTree = "<group>"; };
+		D84E281F0DA7DE49002E7734 /* BOINCProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCProject.h; path = "BOINC Model/BOINCProject.h"; sourceTree = "<group>"; };
+		D84E28290DA7DE53002E7734 /* BB_XMLNodeXPathCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BB_XMLNodeXPathCategory.m; path = "../CoreBOINC/XML Reader/BB_XMLNodeXPathCategory.m"; sourceTree = "<group>"; };
+		D84E282A0DA7DE53002E7734 /* BB_XMLNodeXPathCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BB_XMLNodeXPathCategory.h; path = "../CoreBOINC/XML Reader/BB_XMLNodeXPathCategory.h"; sourceTree = "<group>"; };
+		D85DE4890E8A064D009B5F43 /* BOINCNetProxySettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCNetProxySettings.h; path = "BOINC Model/BOINCNetProxySettings.h"; sourceTree = "<group>"; };
+		D85DE48A0E8A064D009B5F43 /* BOINCNetProxySettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCNetProxySettings.m; path = "BOINC Model/BOINCNetProxySettings.m"; sourceTree = "<group>"; };
+		D85F69920FE58D2700D49E88 /* FeedbackReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FeedbackReporter.framework; path = ../FeedbackReporter/FeedbackReporter.framework; sourceTree = SOURCE_ROOT; };
+		D85F9A5F0FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCSyncWithAccountManager.h; path = "Preference Panel/BOINCSyncWithAccountManager.h"; sourceTree = "<group>"; };
+		D85F9A600FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCSyncWithAccountManager.m; path = "Preference Panel/BOINCSyncWithAccountManager.m"; sourceTree = "<group>"; };
+		D85F9A700FACEE8A00BBD8B2 /* BOINCSyncWithAccountManager.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BOINCSyncWithAccountManager.xib; path = ../../Resources/English.lproj/BOINCSyncWithAccountManager.xib; sourceTree = "<group>"; };
+		D85F9A8D0FAD08B100BBD8B2 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = English; path = English.lproj/AccountManagerNotes.html; sourceTree = "<group>"; };
+		D85F9ED40FB7AE8800BBD8B2 /* BOINCNetStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCNetStatistics.h; path = "BOINC Model/BOINCNetStatistics.h"; sourceTree = "<group>"; };
+		D85F9ED50FB7AE8800BBD8B2 /* BOINCNetStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCNetStatistics.m; path = "BOINC Model/BOINCNetStatistics.m"; sourceTree = "<group>"; };
+		D85F9ED90FB7AEAC00BBD8B2 /* BOINCTimeStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCTimeStatistics.h; path = "BOINC Model/BOINCTimeStatistics.h"; sourceTree = "<group>"; };
+		D85F9EDA0FB7AEAC00BBD8B2 /* BOINCTimeStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCTimeStatistics.m; path = "BOINC Model/BOINCTimeStatistics.m"; sourceTree = "<group>"; };
+		D864E81E0F0F4E1B00DBB4C2 /* BOINCKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCKeychainItem.h; sourceTree = "<group>"; };
+		D864E81F0F0F4E1B00DBB4C2 /* BOINCKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCKeychainItem.m; sourceTree = "<group>"; };
+		D864EB090F1037A300DBB4C2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		D864F3F60F1710DB00DBB4C2 /* BBLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBLog.h; path = Utilities/BBLog.h; sourceTree = "<group>"; };
+		D864F40B0F1715E200DBB4C2 /* BBLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBLog.m; path = Utilities/BBLog.m; sourceTree = "<group>"; };
+		D86583F20DB2E6D500C6B03A /* BMBHostsPrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBHostsPrefController.h; path = "Preference Panel/BMBHostsPrefController.h"; sourceTree = "<group>"; };
+		D86583F30DB2E6D500C6B03A /* BMBHostsPrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBHostsPrefController.m; path = "Preference Panel/BMBHostsPrefController.m"; sourceTree = "<group>"; };
+		D865842F0DB2F9B100C6B03A /* BMBGeneralPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBGeneralPrefsController.h; path = "Preference Panel/BMBGeneralPrefsController.h"; sourceTree = "<group>"; };
+		D86584300DB2F9B100C6B03A /* BMBGeneralPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBGeneralPrefsController.m; path = "Preference Panel/BMBGeneralPrefsController.m"; sourceTree = "<group>"; };
+		D86584320DB2F9CA00C6B03A /* BOINCProjectsPrefController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCProjectsPrefController.h; path = "Preference Panel/BOINCProjectsPrefController.h"; sourceTree = "<group>"; };
+		D86584330DB2F9CA00C6B03A /* BOINCProjectsPrefController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCProjectsPrefController.m; path = "Preference Panel/BOINCProjectsPrefController.m"; sourceTree = "<group>"; };
+		D86584350DB2F9E500C6B03A /* BOINCPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCPrefsController.h; path = "Preference Panel/BOINCPrefsController.h"; sourceTree = "<group>"; };
+		D86584360DB2F9E500C6B03A /* BOINCPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCPrefsController.m; path = "Preference Panel/BOINCPrefsController.m"; sourceTree = "<group>"; };
+		D86584380DB2F9F700C6B03A /* BOINCNetworkPrefsContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCNetworkPrefsContoller.h; path = "Preference Panel/BOINCNetworkPrefsContoller.h"; sourceTree = "<group>"; };
+		D86584390DB2F9F700C6B03A /* BOINCNetworkPrefsContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCNetworkPrefsContoller.m; path = "Preference Panel/BOINCNetworkPrefsContoller.m"; sourceTree = "<group>"; };
+		D86584720DB300BA00C6B03A /* BMBAdvancedPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBAdvancedPrefsController.h; path = "Preference Panel/BMBAdvancedPrefsController.h"; sourceTree = "<group>"; };
+		D86584730DB300BA00C6B03A /* BMBAdvancedPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBAdvancedPrefsController.m; path = "Preference Panel/BMBAdvancedPrefsController.m"; sourceTree = "<group>"; };
+		D86818D6107056FE00066344 /* readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.markdown; path = BBXMLReader/readme.markdown; sourceTree = "<group>"; };
+		D86A34BB0F312BAB00D78299 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BOINCPreferences.xib; sourceTree = "<group>"; };
+		D86A37420F32F4D900D78299 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BOINCNetworkPreferences.xib; sourceTree = "<group>"; };
+		D870A2060E980344002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		D870A20E0E9805B0002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/AboutWindow.xib; sourceTree = SOURCE_ROOT; };
+		D870A21D0E981121002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBStatusMenu.xib; sourceTree = SOURCE_ROOT; };
+		D870A25C0E9818C6002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBProjectMenu.xib; sourceTree = SOURCE_ROOT; };
+		D870A2830E981E03002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBGeneralPreferences.xib; sourceTree = SOURCE_ROOT; };
+		D870A2890E981F29002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBAdvancedPreferences.xib; sourceTree = SOURCE_ROOT; };
+		D870A2920E981FE6002CE95D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBPreferences.xib; sourceTree = SOURCE_ROOT; };
+		D877B0F20DB9A12900FFE1B5 /* BOINCClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCClientManager.h; sourceTree = "<group>"; };
+		D877B0F30DB9A12900FFE1B5 /* BOINCClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCClientManager.m; sourceTree = "<group>"; };
+		D87A86120F0DDC040075E392 /* BMBEditHostInformationSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBEditHostInformationSheet.h; path = "Preference Panel/BMBEditHostInformationSheet.h"; sourceTree = "<group>"; };
+		D87A86130F0DDC040075E392 /* BMBEditHostInformationSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBEditHostInformationSheet.m; path = "Preference Panel/BMBEditHostInformationSheet.m"; sourceTree = "<group>"; };
+		D87A86170F0DDC970075E392 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBHostsPreferences.xib; sourceTree = SOURCE_ROOT; };
+		D87A86180F0DDC970075E392 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BMBEditHostInformationSheet.xib; sourceTree = SOURCE_ROOT; };
+		D87B70DB0F1D5D0C00DDE1CA /* BOINCPlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCPlatform.h; path = "BOINC Model/BOINCPlatform.h"; sourceTree = "<group>"; };
+		D87B70DC0F1D5D0C00DDE1CA /* BOINCPlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCPlatform.m; path = "BOINC Model/BOINCPlatform.m"; sourceTree = "<group>"; };
+		D87B726C0F1EC89700DDE1CA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = Resources/English.lproj/credits.rtf; sourceTree = "<group>"; };
+		D87C09C90FD34DEC005E1E40 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = ../Growl.framework; sourceTree = SOURCE_ROOT; };
+		D87DAF940F2BE54E00B00C45 /* BOINCDailyTimeLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCDailyTimeLimits.h; path = "BOINC Model/BOINCDailyTimeLimits.h"; sourceTree = "<group>"; };
+		D87DAF950F2BE54E00B00C45 /* BOINCDailyTimeLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCDailyTimeLimits.m; path = "BOINC Model/BOINCDailyTimeLimits.m"; sourceTree = "<group>"; };
+		D87DB28D0F2D09DA00B00C45 /* BOINCClientVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCClientVersion.h; path = "BOINC Model/BOINCClientVersion.h"; sourceTree = "<group>"; };
+		D87DB28E0F2D09DA00B00C45 /* BOINCClientVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCClientVersion.m; path = "BOINC Model/BOINCClientVersion.m"; sourceTree = "<group>"; };
+		D87FD34A0DAFE1F500F81460 /* BMBPreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBPreferenceWindowController.h; path = "Preference Panel/BMBPreferenceWindowController.h"; sourceTree = "<group>"; };
+		D87FD34B0DAFE1F500F81460 /* BMBPreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBPreferenceWindowController.m; path = "Preference Panel/BMBPreferenceWindowController.m"; sourceTree = "<group>"; };
+		D880B8800DB141E8000BED9C /* BOINCMgr.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BOINCMgr.icns; path = Resources/BOINCMgr.icns; sourceTree = "<group>"; };
+		D88B8B180F92CD0B006BA4C1 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		D88EB3E20EFC43B300EB6EC9 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = English; path = English.lproj/ProjectDescription.html; sourceTree = "<group>"; };
+		D88EBA740F01CF9000EB6EC9 /* BMBNumbersOnlyFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBNumbersOnlyFormatter.h; path = "Preference Panel/BMBNumbersOnlyFormatter.h"; sourceTree = "<group>"; };
+		D88EBA750F01CF9000EB6EC9 /* BMBNumbersOnlyFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBNumbersOnlyFormatter.m; path = "Preference Panel/BMBNumbersOnlyFormatter.m"; sourceTree = "<group>"; };
+		D89322000DD0458A00230C6E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D893D9C710010F720054034A /* BOINCHostSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCHostSelectionController.h; path = "Preference Panel/BOINCHostSelectionController.h"; sourceTree = "<group>"; };
+		D893D9C810010F720054034A /* BOINCHostSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCHostSelectionController.m; path = "Preference Panel/BOINCHostSelectionController.m"; sourceTree = "<group>"; };
+		D893DA2A10011E9D0054034A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/BOINCHostSelectionView.xib; sourceTree = SOURCE_ROOT; };
+		D893DA3F100132A00054034A /* BMBClientSortDescriptors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBClientSortDescriptors.h; path = App/BMBClientSortDescriptors.h; sourceTree = "<group>"; };
+		D893DA40100132A00054034A /* BMBClientSortDescriptors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBClientSortDescriptors.m; path = App/BMBClientSortDescriptors.m; sourceTree = "<group>"; };
+		D893DDCE10093B7A0054034A /* BOINCProjectStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCProjectStatistics.h; path = "BOINC Model/BOINCProjectStatistics.h"; sourceTree = "<group>"; };
+		D893DDCF10093B7A0054034A /* BOINCProjectStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCProjectStatistics.m; path = "BOINC Model/BOINCProjectStatistics.m"; sourceTree = "<group>"; };
+		D893DDD81009407D0054034A /* BOINCDailyProjectStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCDailyProjectStatistics.h; path = "BOINC Model/BOINCDailyProjectStatistics.h"; sourceTree = "<group>"; };
+		D893DDD91009407D0054034A /* BOINCDailyProjectStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCDailyProjectStatistics.m; path = "BOINC Model/BOINCDailyProjectStatistics.m"; sourceTree = "<group>"; };
+		D893DEFF10096E4D0054034A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		D897CE4E0EEC65A000196C14 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D89882EA10135FC800E8157B /* BMBActivityWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBActivityWindow.h; path = "App/BMB Window/BMBActivityWindow.h"; sourceTree = "<group>"; };
+		D89882EB10135FC800E8157B /* BMBActivityWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBActivityWindow.m; path = "App/BMB Window/BMBActivityWindow.m"; sourceTree = "<group>"; };
+		D89882ED1013605300E8157B /* BMBActivityWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BMBActivityWindow.xib; path = "App/BMB Window/BMBActivityWindow.xib"; sourceTree = "<group>"; };
+		D89C14490F0ED0ED00B7E40D /* BOINCKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCKeychain.h; sourceTree = "<group>"; };
+		D89C144A0F0ED0ED00B7E40D /* BOINCKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCKeychain.m; sourceTree = "<group>"; };
+		D8A245230E615D95005111B7 /* Updates.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Updates.tiff; path = Resources/Updates.tiff; sourceTree = "<group>"; };
+		D8A81EED0FA4D6080043E41A /* BOINCAttachToAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCAttachToAccountManager.h; path = "Preference Panel/BOINCAttachToAccountManager.h"; sourceTree = "<group>"; };
+		D8A81EEE0FA4D6080043E41A /* BOINCAttachToAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCAttachToAccountManager.m; path = "Preference Panel/BOINCAttachToAccountManager.m"; sourceTree = "<group>"; };
+		D8A81EFC0FA4FBAE0043E41A /* BOINCAttachToAccountManager.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BOINCAttachToAccountManager.xib; path = ../../Resources/English.lproj/BOINCAttachToAccountManager.xib; sourceTree = "<group>"; };
+		D8A890890E46AA4600C15EFD /* BMBNumberBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBNumberBadge.m; path = "Status Menu/BMBNumberBadge.m"; sourceTree = "<group>"; };
+		D8A8908A0E46AA4600C15EFD /* BMBNumberBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBNumberBadge.h; path = "Status Menu/BMBNumberBadge.h"; sourceTree = "<group>"; };
+		D8AE0ACA0F366C3300F22C62 /* BOINCHostInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCHostInfo.h; path = "BOINC Model/BOINCHostInfo.h"; sourceTree = "<group>"; };
+		D8AE0ACB0F366C3300F22C62 /* BOINCHostInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCHostInfo.m; path = "BOINC Model/BOINCHostInfo.m"; sourceTree = "<group>"; };
+		D8AE0AF60F366F2400F22C62 /* BOINCClientState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCClientState.h; path = "BOINC Model/BOINCClientState.h"; sourceTree = "<group>"; };
+		D8AE0AF70F366F2400F22C62 /* BOINCClientState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCClientState.m; path = "BOINC Model/BOINCClientState.m"; sourceTree = "<group>"; };
+		D8B5C7610F523D84002606F1 /* BMBAttributeInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBAttributeInfoView.h; path = "Status Menu/BMBAttributeInfoView.h"; sourceTree = "<group>"; };
+		D8B5C7620F523D84002606F1 /* BMBAttributeInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBAttributeInfoView.m; path = "Status Menu/BMBAttributeInfoView.m"; sourceTree = "<group>"; };
+		D8B5C7660F523DB4002606F1 /* BMBAttributeInfoStringCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBAttributeInfoStringCell.h; path = "Status Menu/BMBAttributeInfoStringCell.h"; sourceTree = "<group>"; };
+		D8B5C7670F523DB4002606F1 /* BMBAttributeInfoStringCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBAttributeInfoStringCell.m; path = "Status Menu/BMBAttributeInfoStringCell.m"; sourceTree = "<group>"; };
+		D8BC56260E21CE5900C0052B /* BOINCProjectSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCProjectSummary.h; path = "BOINC Model/BOINCProjectSummary.h"; sourceTree = "<group>"; };
+		D8BC56270E21CE5900C0052B /* BOINCProjectSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCProjectSummary.m; path = "BOINC Model/BOINCProjectSummary.m"; sourceTree = "<group>"; };
+		D8C2C3770F18689E00ABE93A /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = ../../Resources/English.lproj/BOINCLoginWindow.xib; sourceTree = "<group>"; };
+		D8C52F690FCA1F0A000589C4 /* BMBGrowlNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMBGrowlNotifier.h; path = App/BMBGrowlNotifier.h; sourceTree = "<group>"; };
+		D8C52F6A0FCA1F0A000589C4 /* BMBGrowlNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMBGrowlNotifier.m; path = App/BMBGrowlNotifier.m; sourceTree = "<group>"; };
+		D8C592770EAAFA3300272938 /* BOINCAttachToProjectSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCAttachToProjectSheet.h; path = "Preference Panel/BOINCAttachToProjectSheet.h"; sourceTree = "<group>"; };
+		D8C592780EAAFA3300272938 /* BOINCAttachToProjectSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCAttachToProjectSheet.m; path = "Preference Panel/BOINCAttachToProjectSheet.m"; sourceTree = "<group>"; };
+		D8CC56DA0E99AF60008D5C48 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = English; path = English.lproj/OtherProjects.html; sourceTree = "<group>"; };
+		D8CC56E20E99B1AB008D5C48 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = English; path = English.lproj/NoProjectDescription.html; sourceTree = "<group>"; };
+		D8D589070F33BC700092476D /* BOINCProjectsSummaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCProjectsSummaryTree.h; path = "Preference Panel/BOINCProjectsSummaryTree.h"; sourceTree = "<group>"; };
+		D8D589080F33BC700092476D /* BOINCProjectsSummaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCProjectsSummaryTree.m; path = "Preference Panel/BOINCProjectsSummaryTree.m"; sourceTree = "<group>"; };
+		D8D58CD60F3575B70092476D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = English; path = "English.lproj/Platform Names.xml"; sourceTree = "<group>"; };
+		D8DE44BB0FA1F2EB00015959 /* BOINCClientProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOINCClientProcess.h; sourceTree = "<group>"; };
+		D8DE44BC0FA1F2EB00015959 /* BOINCClientProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCClientProcess.m; sourceTree = "<group>"; };
+		D8DE4AC70FA343ED00015959 /* BOINCAccountManagerSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCAccountManagerSummary.h; path = "BOINC Model/BOINCAccountManagerSummary.h"; sourceTree = "<group>"; };
+		D8DE4AC80FA343ED00015959 /* BOINCAccountManagerSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCAccountManagerSummary.m; path = "BOINC Model/BOINCAccountManagerSummary.m"; sourceTree = "<group>"; };
+		D8DE4B170FA3538500015959 /* BOINCAllProjectsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCAllProjectsList.h; path = "BOINC Model/BOINCAllProjectsList.h"; sourceTree = "<group>"; };
+		D8DE4B180FA3538500015959 /* BOINCAllProjectsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCAllProjectsList.m; path = "BOINC Model/BOINCAllProjectsList.m"; sourceTree = "<group>"; };
+		D8DE4B260FA3B0CA00015959 /* BOINCAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCAccountManager.h; path = "BOINC Model/BOINCAccountManager.h"; sourceTree = "<group>"; };
+		D8DE4B270FA3B0CA00015959 /* BOINCAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCAccountManager.m; path = "BOINC Model/BOINCAccountManager.m"; sourceTree = "<group>"; };
+		D8DE4F0E0FA49F6100015959 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = English; path = English.lproj/AccountManagerDescription.html; sourceTree = "<group>"; };
+		D8DE4F0F0FA49F6100015959 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = English; path = English.lproj/AccountManagerWithoutDescription.html; sourceTree = "<group>"; };
+		D8DE619E0E6A0D930078C9B7 /* BOINCIconWithNetwork.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = BOINCIconWithNetwork.tif; path = Resources/BOINCIconWithNetwork.tif; sourceTree = "<group>"; };
+		D8F3035F0F922F4F0005C0ED /* NSString+BB_CommonCryptoDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+BB_CommonCryptoDigest.h"; path = "Utilities/NSString+BB_CommonCryptoDigest.h"; sourceTree = "<group>"; };
+		D8F303600F922F4F0005C0ED /* NSString+BB_CommonCryptoDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+BB_CommonCryptoDigest.m"; path = "Utilities/NSString+BB_CommonCryptoDigest.m"; sourceTree = "<group>"; };
+		D8F4C6E80DD0D4FB0090818A /* BOINCCommonConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOINCCommonConstants.m; sourceTree = "<group>"; };
+		D8FF925F0F6C380600C220A3 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = ../AsyncSocket/AsyncSocket.m; sourceTree = SOURCE_ROOT; };
+		D8FF92600F6C380600C220A3 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = ../AsyncSocket/AsyncSocket.h; sourceTree = SOURCE_ROOT; };
+		D8FF95790F6D976D00C220A3 /* BOINCRPCStatusReply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BOINCRPCStatusReply.h; path = "BOINC Model/BOINCRPCStatusReply.h"; sourceTree = "<group>"; };
+		D8FF957A0F6D976D00C220A3 /* BOINCRPCStatusReply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BOINCRPCStatusReply.m; path = "BOINC Model/BOINCRPCStatusReply.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88C647A0DA7C27200CAE159 /* AppKit.framework in Frameworks */,
+				D88C64790DA7C26800CAE159 /* Foundation.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D89322010DD0458A00230C6E /* WebKit.framework in Frameworks */,
+				D8052A9D0EBEE6D90093447B /* AddressBook.framework in Frameworks */,
+				D864EB0A0F1037A300DBB4C2 /* Security.framework in Frameworks */,
+				D85F69930FE58D2700D49E88 /* FeedbackReporter.framework in Frameworks */,
+				D893DF0010096E4D0054034A /* QuartzCore.framework in Frameworks */,
+				D8091B511017E9AE00F53085 /* Growl.framework in Frameworks */,
+				D84452551078E8AB001FE89D /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D893DEFF10096E4D0054034A /* QuartzCore.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				D864EB090F1037A300DBB4C2 /* Security.framework */,
+				D8052A9C0EBEE6D90093447B /* AddressBook.framework */,
+				D89322000DD0458A00230C6E /* WebKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D84452541078E8AB001FE89D /* Sparkle.framework */,
+				D85F69920FE58D2700D49E88 /* FeedbackReporter.framework */,
+				D87C09C90FD34DEC005E1E40 /* Growl.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* BOINCMenubar 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* BOINCMenubar test 2 */ = {
+			isa = PBXGroup;
+			children = (
+				D84E27F20DA7DDD6002E7734 /* App */,
+				D84E27F40DA7DDE7002E7734 /* CoreBOINC */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				D8342FB310C95D4E009A00F8 /* AppCast */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "BOINCMenubar test 2";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* BOINCMenubar_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D88B8B180F92CD0B006BA4C1 /* License.txt */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				D81E096D0FC09239007F77FD /* Growl Registration Ticket.growlRegDict */,
+				D8445285107911D5001FE89D /* dsa_pub.pem */,
+				D8D58CD80F3575BF0092476D /* Platform Names.xml */,
+				D897CE4D0EEC65A000196C14 /* Localizable.strings */,
+				D812AAC80DC70B4F002F4A3B /* InfoPlist.strings */,
+				D897CEA90EEC9C9100196C14 /* OtherProjects.html */,
+				D897CEAB0EEC9CA700196C14 /* NoProjectDescription.html */,
+				D88EB3E40EFC43BB00EB6EC9 /* ProjectDescription.html */,
+				D8DE4F120FA49F6900015959 /* AccountManagerDescription.html */,
+				D8DE4F140FA49F6900015959 /* AccountManagerWithoutDescription.html */,
+				D85F9A8C0FAD08B100BBD8B2 /* AccountManagerNotes.html */,
+				D8A243720E60C907005111B7 /* Images */,
+				D893DD381008D2EC0054034A /* credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8342FB310C95D4E009A00F8 /* AppCast */ = {
+			isa = PBXGroup;
+			children = (
+				D8342B2410C5A820009A00F8 /* appcast.xml */,
+				D8342B2510C5A820009A00F8 /* appcastitems.xml */,
+				D8342FAA10C95CD7009A00F8 /* release-notes.html */,
+				D8342FC910C96168009A00F8 /* releasenotes.css */,
+			);
+			name = AppCast;
+			sourceTree = "<group>";
+		};
+		D84E27F20DA7DDD6002E7734 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D84E28030DA7DE22002E7734 /* BMBAppController.h */,
+				D84E28020DA7DE22002E7734 /* BMBAppController.m */,
+				D8C52F690FCA1F0A000589C4 /* BMBGrowlNotifier.h */,
+				D8C52F6A0FCA1F0A000589C4 /* BMBGrowlNotifier.m */,
+				D822328C0F9B982D001FF94A /* BBAppSessionLoginState.h */,
+				D822328D0F9B982D001FF94A /* BBAppSessionLoginState.m */,
+				D893DA3F100132A00054034A /* BMBClientSortDescriptors.h */,
+				D893DA40100132A00054034A /* BMBClientSortDescriptors.m */,
+				D8A821B90FA9298D0043E41A /* MainMenu.xib */,
+				D8A821B70FA929850043E41A /* AboutWindow.xib */,
+				D84E27F30DA7DDDD002E7734 /* Status Menu */,
+				D89882D710135F6400E8157B /* BMB Window */,
+				D87FD3470DAFE1BD00F81460 /* Preference Window */,
+			);
+			name = App;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D84E27F30DA7DDDD002E7734 /* Status Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D84E28060DA7DE2E002E7734 /* BMBStatusMenuController.h */,
+				D84E28050DA7DE2E002E7734 /* BMBStatusMenuController.m */,
+				D8A821B50FA9297C0043E41A /* BMBStatusMenu.xib */,
+				D833AAFA0F801A2C008E0A1E /* BMBHostMenuController.h */,
+				D833AAFB0F801A2C008E0A1E /* BMBHostMenuController.m */,
+				D84E28080DA7DE2E002E7734 /* BMBProjectMenuController.h */,
+				D84E28070DA7DE2E002E7734 /* BMBProjectMenuController.m */,
+				D8A821B30FA929720043E41A /* BMBProjectMenu.xib */,
+				D8B5C7610F523D84002606F1 /* BMBAttributeInfoView.h */,
+				D8B5C7620F523D84002606F1 /* BMBAttributeInfoView.m */,
+				D8B5C7660F523DB4002606F1 /* BMBAttributeInfoStringCell.h */,
+				D8B5C7670F523DB4002606F1 /* BMBAttributeInfoStringCell.m */,
+				D8A8908A0E46AA4600C15EFD /* BMBNumberBadge.h */,
+				D8A890890E46AA4600C15EFD /* BMBNumberBadge.m */,
+			);
+			name = "Status Menu";
+			path = App;
+			sourceTree = "<group>";
+		};
+		D84E27F40DA7DDE7002E7734 /* CoreBOINC */ = {
+			isa = PBXGroup;
+			children = (
+				D8342DCB0DA9C61B00EA0FBD /* BOINCCommonConstants.h */,
+				D8F4C6E80DD0D4FB0090818A /* BOINCCommonConstants.m */,
+				D877B0F20DB9A12900FFE1B5 /* BOINCClientManager.h */,
+				D877B0F30DB9A12900FFE1B5 /* BOINCClientManager.m */,
+				D81BB6710F4F775400FFE030 /* BOINCActiveClientManager.h */,
+				D81BB6720F4F775400FFE030 /* BOINCActiveClientManager.m */,
+				D84E28130DA7DE3E002E7734 /* BOINCClient.h */,
+				D84E28120DA7DE3E002E7734 /* BOINCClient.m */,
+				D84E28150DA7DE3E002E7734 /* BOINCHostConnection.h */,
+				D84E28140DA7DE3E002E7734 /* BOINCHostConnection.m */,
+				D8DE44BB0FA1F2EB00015959 /* BOINCClientProcess.h */,
+				D8DE44BC0FA1F2EB00015959 /* BOINCClientProcess.m */,
+				D81E0C4B0FC9BC3A007F77FD /* BOINCCreditMilestone.h */,
+				D81E0C4C0FC9BC3A007F77FD /* BOINCCreditMilestone.m */,
+				D89C14490F0ED0ED00B7E40D /* BOINCKeychain.h */,
+				D89C144A0F0ED0ED00B7E40D /* BOINCKeychain.m */,
+				D864E81E0F0F4E1B00DBB4C2 /* BOINCKeychainItem.h */,
+				D864E81F0F0F4E1B00DBB4C2 /* BOINCKeychainItem.m */,
+				D80187250F2418FB00C8B5C2 /* BOINCLogInWindowController.h */,
+				D80187240F2418FB00C8B5C2 /* BOINCLogInWindowController.m */,
+				D8A821C10FA929B80043E41A /* BOINCLoginWindow.xib */,
+				D84E27FE0DA7DDFC002E7734 /* BOINC Model */,
+				D84E27FF0DA7DE09002E7734 /* BB XML Reader */,
+				D85F68E40FE55C1B00D49E88 /* AsyncSocket */,
+				D8C2CE770DA9658F00DC2F23 /* Utilities */,
+			);
+			name = CoreBOINC;
+			path = Classes/CoreBOINC;
+			sourceTree = "<group>";
+		};
+		D84E27FE0DA7DDFC002E7734 /* BOINC Model */ = {
+			isa = PBXGroup;
+			children = (
+				D84E281B0DA7DE49002E7734 /* BOINCURL.h */,
+				D84E281A0DA7DE49002E7734 /* BOINCURL.m */,
+				D84E281D0DA7DE49002E7734 /* BOINCTask.h */,
+				D84E281C0DA7DE49002E7734 /* BOINCTask.m */,
+				D84E281F0DA7DE49002E7734 /* BOINCProject.h */,
+				D84E281E0DA7DE49002E7734 /* BOINCProject.m */,
+				D87B70DB0F1D5D0C00DDE1CA /* BOINCPlatform.h */,
+				D87B70DC0F1D5D0C00DDE1CA /* BOINCPlatform.m */,
+				D8493A0E0F47896E00BED889 /* BOINCPlatforms.h */,
+				D8493A0F0F47896E00BED889 /* BOINCPlatforms.m */,
+				D8BC56260E21CE5900C0052B /* BOINCProjectSummary.h */,
+				D8BC56270E21CE5900C0052B /* BOINCProjectSummary.m */,
+				D8DE4AC70FA343ED00015959 /* BOINCAccountManagerSummary.h */,
+				D8DE4AC80FA343ED00015959 /* BOINCAccountManagerSummary.m */,
+				D8DE4B170FA3538500015959 /* BOINCAllProjectsList.h */,
+				D8DE4B180FA3538500015959 /* BOINCAllProjectsList.m */,
+				D8DE4B260FA3B0CA00015959 /* BOINCAccountManager.h */,
+				D8DE4B270FA3B0CA00015959 /* BOINCAccountManager.m */,
+				D833A7930F766B98008E0A1E /* BOINCProjectConfig.h */,
+				D833A7940F766B98008E0A1E /* BOINCProjectConfig.m */,
+				D833A7990F769F96008E0A1E /* BOINCAccountOut.h */,
+				D833A79A0F769F96008E0A1E /* BOINCAccountOut.m */,
+				D833A7B50F76D6BE008E0A1E /* BOINCProjectAttach.h */,
+				D833A7B60F76D6BE008E0A1E /* BOINCProjectAttach.m */,
+				D8FF95790F6D976D00C220A3 /* BOINCRPCStatusReply.h */,
+				D8FF957A0F6D976D00C220A3 /* BOINCRPCStatusReply.m */,
+				D87DB28D0F2D09DA00B00C45 /* BOINCClientVersion.h */,
+				D87DB28E0F2D09DA00B00C45 /* BOINCClientVersion.m */,
+				D82ABF8B0DC701B8005F2A01 /* BOINCClientStatus.h */,
+				D82ABF8A0DC701B8005F2A01 /* BOINCClientStatus.m */,
+				D8AE0ACA0F366C3300F22C62 /* BOINCHostInfo.h */,
+				D8AE0ACB0F366C3300F22C62 /* BOINCHostInfo.m */,
+				D8AE0AF60F366F2400F22C62 /* BOINCClientState.h */,
+				D8AE0AF70F366F2400F22C62 /* BOINCClientState.m */,
+				D85F9ED40FB7AE8800BBD8B2 /* BOINCNetStatistics.h */,
+				D85F9ED50FB7AE8800BBD8B2 /* BOINCNetStatistics.m */,
+				D85F9ED90FB7AEAC00BBD8B2 /* BOINCTimeStatistics.h */,
+				D85F9EDA0FB7AEAC00BBD8B2 /* BOINCTimeStatistics.m */,
+				D8012CBE0DE00EE90063BD66 /* BOINCGlobalPreferences.h */,
+				D8012CBF0DE00EE90063BD66 /* BOINCGlobalPreferences.m */,
+				D87DAF940F2BE54E00B00C45 /* BOINCDailyTimeLimits.h */,
+				D87DAF950F2BE54E00B00C45 /* BOINCDailyTimeLimits.m */,
+				D85DE4890E8A064D009B5F43 /* BOINCNetProxySettings.h */,
+				D85DE48A0E8A064D009B5F43 /* BOINCNetProxySettings.m */,
+				D893DDCE10093B7A0054034A /* BOINCProjectStatistics.h */,
+				D893DDCF10093B7A0054034A /* BOINCProjectStatistics.m */,
+				D893DDD81009407D0054034A /* BOINCDailyProjectStatistics.h */,
+				D893DDD91009407D0054034A /* BOINCDailyProjectStatistics.m */,
+			);
+			name = "BOINC Model";
+			sourceTree = "<group>";
+		};
+		D84E27FF0DA7DE09002E7734 /* BB XML Reader */ = {
+			isa = PBXGroup;
+			children = (
+				D81F15FE0F429450006C7A55 /* BBXMLReader.h */,
+				D81F15FD0F429450006C7A55 /* BBXMLReader.m */,
+				D81F16000F429450006C7A55 /* BBXMLParsingDescription.h */,
+				D81F15FF0F429450006C7A55 /* BBXMLParsingDescription.m */,
+				D86818D6107056FE00066344 /* readme.markdown */,
+			);
+			name = "BB XML Reader";
+			sourceTree = "<group>";
+		};
+		D85F68E40FE55C1B00D49E88 /* AsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				D8FF92600F6C380600C220A3 /* AsyncSocket.h */,
+				D8FF925F0F6C380600C220A3 /* AsyncSocket.m */,
+			);
+			name = AsyncSocket;
+			sourceTree = "<group>";
+		};
+		D87FD3470DAFE1BD00F81460 /* Preference Window */ = {
+			isa = PBXGroup;
+			children = (
+				D87FD34A0DAFE1F500F81460 /* BMBPreferenceWindowController.h */,
+				D87FD34B0DAFE1F500F81460 /* BMBPreferenceWindowController.m */,
+				D8A821B10FA929670043E41A /* BMBPreferences.xib */,
+				D865842F0DB2F9B100C6B03A /* BMBGeneralPrefsController.h */,
+				D86584300DB2F9B100C6B03A /* BMBGeneralPrefsController.m */,
+				D8A821AF0FA9295F0043E41A /* BMBGeneralPreferences.xib */,
+				D84939A40F474CCF00BED889 /* BMBAppearancePrefsController.h */,
+				D84939A50F474CCF00BED889 /* BMBAppearancePrefsController.m */,
+				D8A821AD0FA929570043E41A /* BMBAppearancePreferences.xib */,
+				D81554131094DE2C00698637 /* BMBSoftwareUpdatesController.h */,
+				D81554141094DE2C00698637 /* BMBSoftwareUpdatesController.m */,
+				D81554111094DDFE00698637 /* BMBSoftwareUpdates.xib */,
+				D86584720DB300BA00C6B03A /* BMBAdvancedPrefsController.h */,
+				D86584730DB300BA00C6B03A /* BMBAdvancedPrefsController.m */,
+				D8A821AB0FA929490043E41A /* BMBAdvancedPreferences.xib */,
+				D86583F20DB2E6D500C6B03A /* BMBHostsPrefController.h */,
+				D86583F30DB2E6D500C6B03A /* BMBHostsPrefController.m */,
+				D8A821A90FA9293F0043E41A /* BMBHostsPreferences.xib */,
+				D87A86120F0DDC040075E392 /* BMBEditHostInformationSheet.h */,
+				D87A86130F0DDC040075E392 /* BMBEditHostInformationSheet.m */,
+				D8A821A70FA929240043E41A /* BMBEditHostInformationSheet.xib */,
+				D86584350DB2F9E500C6B03A /* BOINCPrefsController.h */,
+				D86584360DB2F9E500C6B03A /* BOINCPrefsController.m */,
+				D86A34BE0F312BB600D78299 /* BOINCPreferences.xib */,
+				D88EBA740F01CF9000EB6EC9 /* BMBNumbersOnlyFormatter.h */,
+				D88EBA750F01CF9000EB6EC9 /* BMBNumbersOnlyFormatter.m */,
+				D86584380DB2F9F700C6B03A /* BOINCNetworkPrefsContoller.h */,
+				D86584390DB2F9F700C6B03A /* BOINCNetworkPrefsContoller.m */,
+				D86A37440F32F4E500D78299 /* BOINCNetworkPreferences.xib */,
+				D86584320DB2F9CA00C6B03A /* BOINCProjectsPrefController.h */,
+				D86584330DB2F9CA00C6B03A /* BOINCProjectsPrefController.m */,
+				D8A821BB0FA9299A0043E41A /* BOINCProjectsPreferences.xib */,
+				D8D589070F33BC700092476D /* BOINCProjectsSummaryTree.h */,
+				D8D589080F33BC700092476D /* BOINCProjectsSummaryTree.m */,
+				D8C592770EAAFA3300272938 /* BOINCAttachToProjectSheet.h */,
+				D8C592780EAAFA3300272938 /* BOINCAttachToProjectSheet.m */,
+				D8A821BD0FA929A40043E41A /* BOINCAttatchToProjectSheet.xib */,
+				D8A81EED0FA4D6080043E41A /* BOINCAttachToAccountManager.h */,
+				D8A81EEE0FA4D6080043E41A /* BOINCAttachToAccountManager.m */,
+				D8A821BF0FA929AD0043E41A /* BOINCAttachToAccountManager.xib */,
+				D85F9A5F0FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.h */,
+				D85F9A600FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.m */,
+				D85F9A880FACFD9D00BBD8B2 /* BOINCSyncWithAccountManager.xib */,
+				D893D9C710010F720054034A /* BOINCHostSelectionController.h */,
+				D893D9C810010F720054034A /* BOINCHostSelectionController.m */,
+				D893DA2C10011EA40054034A /* BOINCHostSelectionView.xib */,
+			);
+			name = "Preference Window";
+			path = App;
+			sourceTree = "<group>";
+		};
+		D89882D710135F6400E8157B /* BMB Window */ = {
+			isa = PBXGroup;
+			children = (
+				D89882EA10135FC800E8157B /* BMBActivityWindow.h */,
+				D89882EB10135FC800E8157B /* BMBActivityWindow.m */,
+				D89882ED1013605300E8157B /* BMBActivityWindow.xib */,
+			);
+			name = "BMB Window";
+			sourceTree = "<group>";
+		};
+		D8A243720E60C907005111B7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D880B8800DB141E8000BED9C /* BOINCMgr.icns */,
+				D81DCA820F892B1D0065D0AC /* BOINCMenubarIcon.icns */,
+				D84DB72A0E7513B9009A8998 /* BOINCLogo128x128.tif */,
+				D84DB6AE0E7508CE009A8998 /* BOINCIconActive.tif */,
+				D84E27DC0DA7DD39002E7734 /* BOINCIconOff.tif */,
+				D8DE619E0E6A0D930078C9B7 /* BOINCIconWithNetwork.tif */,
+				D81DC9A90F882F860065D0AC /* Appearance.png */,
+				D81DC9AC0F8830750065D0AC /* Projects.png */,
+				D8A245230E615D95005111B7 /* Updates.tiff */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		D8C2CE770DA9658F00DC2F23 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D864F3F60F1710DB00DBB4C2 /* BBLog.h */,
+				D864F40B0F1715E200DBB4C2 /* BBLog.m */,
+				D8F3035F0F922F4F0005C0ED /* NSString+BB_CommonCryptoDigest.h */,
+				D8F303600F922F4F0005C0ED /* NSString+BB_CommonCryptoDigest.m */,
+				D84E282A0DA7DE53002E7734 /* BB_XMLNodeXPathCategory.h */,
+				D84E28290DA7DE53002E7734 /* BB_XMLNodeXPathCategory.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* BOINCMenubar 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BOINCMenubar 2" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				D89C14350F0ECFCC00B7E40D /* CopyFiles */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BOINCMenubar 2";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "BOINCMenubar test 2";
+			productReference = 8D1107320486CEB800E47090 /* BOINCMenubar 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BOINCMenubar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* BOINCMenubar test 2 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* BOINCMenubar 2 */,
+				D844529010791421001FE89D /* Distribution */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84E27E30DA7DD39002E7734 /* BOINCIconOff.tif in Resources */,
+				D812AAC90DC70B4F002F4A3B /* InfoPlist.strings in Resources */,
+				D8A245240E615D95005111B7 /* Updates.tiff in Resources */,
+				D8DE619F0E6A0D930078C9B7 /* BOINCIconWithNetwork.tif in Resources */,
+				D84DB6AF0E7508CE009A8998 /* BOINCIconActive.tif in Resources */,
+				D84DB72B0E7513B9009A8998 /* BOINCLogo128x128.tif in Resources */,
+				D8DE4AB00FA3400700015959 /* BOINCMgr.icns in Resources */,
+				D8A821BA0FA9298D0043E41A /* MainMenu.xib in Resources */,
+				D8A821B80FA929850043E41A /* AboutWindow.xib in Resources */,
+				D8A821B60FA9297C0043E41A /* BMBStatusMenu.xib in Resources */,
+				D8A821B40FA929720043E41A /* BMBProjectMenu.xib in Resources */,
+				D8A821B00FA9295F0043E41A /* BMBGeneralPreferences.xib in Resources */,
+				D8A821AC0FA929490043E41A /* BMBAdvancedPreferences.xib in Resources */,
+				D8A821B20FA929670043E41A /* BMBPreferences.xib in Resources */,
+				D897CEAA0EEC9C9100196C14 /* OtherProjects.html in Resources */,
+				D897CEAC0EEC9CA700196C14 /* NoProjectDescription.html in Resources */,
+				D8A821BC0FA9299A0043E41A /* BOINCProjectsPreferences.xib in Resources */,
+				D8A821BE0FA929A40043E41A /* BOINCAttatchToProjectSheet.xib in Resources */,
+				D897CE4F0EEC65A000196C14 /* Localizable.strings in Resources */,
+				D88EB3E50EFC43BB00EB6EC9 /* ProjectDescription.html in Resources */,
+				D8A821AA0FA9293F0043E41A /* BMBHostsPreferences.xib in Resources */,
+				D8A821A80FA929240043E41A /* BMBEditHostInformationSheet.xib in Resources */,
+				D8A821C20FA929B80043E41A /* BOINCLoginWindow.xib in Resources */,
+				D893DD391008D2EC0054034A /* credits.rtf in Resources */,
+				D86A34BF0F312BB600D78299 /* BOINCPreferences.xib in Resources */,
+				D86A37450F32F4E500D78299 /* BOINCNetworkPreferences.xib in Resources */,
+				D8D58CD90F3575BF0092476D /* Platform Names.xml in Resources */,
+				D8A821AE0FA929570043E41A /* BMBAppearancePreferences.xib in Resources */,
+				D81DC9AA0F882F860065D0AC /* Appearance.png in Resources */,
+				D81DC9AD0F8830750065D0AC /* Projects.png in Resources */,
+				D81DCA830F892B1D0065D0AC /* BOINCMenubarIcon.icns in Resources */,
+				D88B8B190F92CD0B006BA4C1 /* License.txt in Resources */,
+				D8DE4F130FA49F6900015959 /* AccountManagerDescription.html in Resources */,
+				D8DE4F150FA49F6900015959 /* AccountManagerWithoutDescription.html in Resources */,
+				D8A821C00FA929AD0043E41A /* BOINCAttachToAccountManager.xib in Resources */,
+				D85F9A890FACFD9D00BBD8B2 /* BOINCSyncWithAccountManager.xib in Resources */,
+				D85F9A8E0FAD08B100BBD8B2 /* AccountManagerNotes.html in Resources */,
+				D81E096E0FC09239007F77FD /* Growl Registration Ticket.growlRegDict in Resources */,
+				D893DA2D10011EA40054034A /* BOINCHostSelectionView.xib in Resources */,
+				D89882EE1013605300E8157B /* BMBActivityWindow.xib in Resources */,
+				D8445286107911D5001FE89D /* dsa_pub.pem in Resources */,
+				D81554121094DDFE00698637 /* BMBSoftwareUpdates.xib in Resources */,
+				D8342B2610C5A820009A00F8 /* appcast.xml in Resources */,
+				D8342B2710C5A820009A00F8 /* appcastitems.xml in Resources */,
+				D8342FAB10C95CD7009A00F8 /* release-notes.html in Resources */,
+				D8342FCA10C96168009A00F8 /* releasenotes.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D844528F10791421001FE89D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# adapted from http://www.entropy.ch/blog/Developer/2008/09/22/Sparkle-Appcast-Automation-in-Xcode.html\n\nset -o errexit\n\n[ $BUILD_STYLE = Release ] || { echo Distribution target requires \"'Release'\" build style; false; }\n\nAPPNAME=\"BOINCMenubar 2\"\nVERSION=$(defaults read \"$BUILT_PRODUCTS_DIR/$APPNAME.app/Contents/Info\" CFBundleShortVersionString)\nBUILDNUM=$(defaults read \"$BUILT_PRODUCTS_DIR/$APPNAME.app/Contents/Info\" CFBundleVersion)\nDOWNLOAD_BASE_URL=\"http://sparkle.brotherbard.com/boincmenubar\"\nRELEASENOTES_URL=\"http://sparkle.brotherbard.com/boincmenubar/release-notes.html#version-$VERSION\"\n\nARCHIVE_FILENAME=\"BOINCMenubar_$VERSION.zip\"\nDOWNLOAD_URL=\"$DOWNLOAD_BASE_URL/$ARCHIVE_FILENAME\"\nKEYCHAIN_PRIVKEY_NAME=\"BOINCMenubar Sparkle Private Key\"\n\nWD=$PWD\ncd \"$BUILT_PRODUCTS_DIR\"\nrm -f \"$APPNAME\"*.zip\nditto -ck --keepParent \"$APPNAME.app\" \"$ARCHIVE_FILENAME\"\n\nSIZE=$(stat -f %z \"$ARCHIVE_FILENAME\")\nPUBDATE=$(date +\"%a, %d %b %G %T %z\")\nSIGNATURE=$(\n\topenssl dgst -sha1 -binary < \"$ARCHIVE_FILENAME\" \\\n\t| openssl dgst -dss1 -sign <(security find-generic-password -g -s \"$KEYCHAIN_PRIVKEY_NAME\" 2>&1 1>/dev/null \\\n\t| perl -pe '($_) = /\"(.+)\"/; s/\\\\012/\\n/g' \\\n\t| perl -MXML::LibXML -e 'print XML::LibXML->new()->parse_file(\"-\")->findvalue(q(//string[preceding-sibling::key[1] = \"NOTE\"]))') \\\n\t| openssl enc -base64\n)\n\n[ $SIGNATURE ] || { echo Unable to load signing private key with name \"'$KEYCHAIN_PRIVKEY_NAME'\" from keychain; false; }\n\nITEM=\"\n<item>\n\t<title>Version $VERSION</title>\n\t<sparkle:releaseNotesLink>$RELEASENOTES_URL</sparkle:releaseNotesLink>\n\t<pubDate>$PUBDATE</pubDate>\n\t<enclosure\n\t\turl=\\\"$DOWNLOAD_URL\\\"\n\t\ttype=\\\"application/octet-stream\\\"\n\t\tlength=\\\"$SIZE\\\"\n\t\tsparkle:version=\\\"$BUILDNUM\\\"\n\t\tsparkle:shortVersionString=\\\"$VERSION\\\"\n\t\tsparkle:dsaSignature=\\\"$SIGNATURE\\\"\n\t/>\n</item>\"\n\ncd \"$WD\"\necho \"$ITEM\">>appcastitems.xml\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				D84E28040DA7DE22002E7734 /* BMBAppController.m in Sources */,
+				D84E280E0DA7DE2E002E7734 /* BMBStatusMenuController.m in Sources */,
+				D84E280F0DA7DE2E002E7734 /* BMBProjectMenuController.m in Sources */,
+				D84E28160DA7DE3E002E7734 /* BOINCClient.m in Sources */,
+				D84E28170DA7DE3E002E7734 /* BOINCHostConnection.m in Sources */,
+				D84E28210DA7DE49002E7734 /* BOINCURL.m in Sources */,
+				D84E28220DA7DE49002E7734 /* BOINCTask.m in Sources */,
+				D84E28230DA7DE49002E7734 /* BOINCProject.m in Sources */,
+				D84E282D0DA7DE53002E7734 /* BB_XMLNodeXPathCategory.m in Sources */,
+				D87FD34C0DAFE1F500F81460 /* BMBPreferenceWindowController.m in Sources */,
+				D86583F40DB2E6D500C6B03A /* BMBHostsPrefController.m in Sources */,
+				D86584310DB2F9B100C6B03A /* BMBGeneralPrefsController.m in Sources */,
+				D86584340DB2F9CA00C6B03A /* BOINCProjectsPrefController.m in Sources */,
+				D86584370DB2F9E500C6B03A /* BOINCPrefsController.m in Sources */,
+				D865843A0DB2F9F700C6B03A /* BOINCNetworkPrefsContoller.m in Sources */,
+				D86584740DB300BA00C6B03A /* BMBAdvancedPrefsController.m in Sources */,
+				D877B0F40DB9A12900FFE1B5 /* BOINCClientManager.m in Sources */,
+				D82ABF8C0DC701B8005F2A01 /* BOINCClientStatus.m in Sources */,
+				D8F4C6E90DD0D4FB0090818A /* BOINCCommonConstants.m in Sources */,
+				D8012CC00DE00EE90063BD66 /* BOINCGlobalPreferences.m in Sources */,
+				D8BC56280E21CE5900C0052B /* BOINCProjectSummary.m in Sources */,
+				D8A8908B0E46AA4600C15EFD /* BMBNumberBadge.m in Sources */,
+				D85DE48B0E8A064D009B5F43 /* BOINCNetProxySettings.m in Sources */,
+				D8C592790EAAFA3300272938 /* BOINCAttachToProjectSheet.m in Sources */,
+				D88EBA760F01CF9000EB6EC9 /* BMBNumbersOnlyFormatter.m in Sources */,
+				D87A86140F0DDC040075E392 /* BMBEditHostInformationSheet.m in Sources */,
+				D89C144B0F0ED0ED00B7E40D /* BOINCKeychain.m in Sources */,
+				D864E8200F0F4E1B00DBB4C2 /* BOINCKeychainItem.m in Sources */,
+				D864F40C0F1715E200DBB4C2 /* BBLog.m in Sources */,
+				D87B70DD0F1D5D0C00DDE1CA /* BOINCPlatform.m in Sources */,
+				D80187260F2418FB00C8B5C2 /* BOINCLogInWindowController.m in Sources */,
+				D87DAF960F2BE54E00B00C45 /* BOINCDailyTimeLimits.m in Sources */,
+				D87DB28F0F2D09DA00B00C45 /* BOINCClientVersion.m in Sources */,
+				D8D589090F33BC700092476D /* BOINCProjectsSummaryTree.m in Sources */,
+				D8AE0ACC0F366C3300F22C62 /* BOINCHostInfo.m in Sources */,
+				D8AE0AF80F366F2400F22C62 /* BOINCClientState.m in Sources */,
+				D81F16010F429450006C7A55 /* BBXMLReader.m in Sources */,
+				D81F16020F429450006C7A55 /* BBXMLParsingDescription.m in Sources */,
+				D84939A60F474CCF00BED889 /* BMBAppearancePrefsController.m in Sources */,
+				D8493A100F47896E00BED889 /* BOINCPlatforms.m in Sources */,
+				D81BB6730F4F775400FFE030 /* BOINCActiveClientManager.m in Sources */,
+				D8B5C7630F523D84002606F1 /* BMBAttributeInfoView.m in Sources */,
+				D8B5C7680F523DB4002606F1 /* BMBAttributeInfoStringCell.m in Sources */,
+				D8FF92610F6C380600C220A3 /* AsyncSocket.m in Sources */,
+				D8FF957B0F6D976D00C220A3 /* BOINCRPCStatusReply.m in Sources */,
+				D833A7950F766B98008E0A1E /* BOINCProjectConfig.m in Sources */,
+				D833A79B0F769F96008E0A1E /* BOINCAccountOut.m in Sources */,
+				D833A7B70F76D6BE008E0A1E /* BOINCProjectAttach.m in Sources */,
+				D833AAFC0F801A2C008E0A1E /* BMBHostMenuController.m in Sources */,
+				D8F303610F922F4F0005C0ED /* NSString+BB_CommonCryptoDigest.m in Sources */,
+				D822328E0F9B982D001FF94A /* BBAppSessionLoginState.m in Sources */,
+				D8DE44BD0FA1F2EB00015959 /* BOINCClientProcess.m in Sources */,
+				D8DE4AC90FA343ED00015959 /* BOINCAccountManagerSummary.m in Sources */,
+				D8DE4B190FA3538500015959 /* BOINCAllProjectsList.m in Sources */,
+				D8DE4B280FA3B0CA00015959 /* BOINCAccountManager.m in Sources */,
+				D8A81EEF0FA4D6080043E41A /* BOINCAttachToAccountManager.m in Sources */,
+				D85F9A610FACDF0400BBD8B2 /* BOINCSyncWithAccountManager.m in Sources */,
+				D85F9ED60FB7AE8800BBD8B2 /* BOINCNetStatistics.m in Sources */,
+				D85F9EDB0FB7AEAC00BBD8B2 /* BOINCTimeStatistics.m in Sources */,
+				D81E0C4D0FC9BC3A007F77FD /* BOINCCreditMilestone.m in Sources */,
+				D8C52F6B0FCA1F0A000589C4 /* BMBGrowlNotifier.m in Sources */,
+				D893D9C910010F720054034A /* BOINCHostSelectionController.m in Sources */,
+				D893DA41100132A00054034A /* BMBClientSortDescriptors.m in Sources */,
+				D893DDD010093B7A0054034A /* BOINCProjectStatistics.m in Sources */,
+				D893DDDA1009407D0054034A /* BOINCDailyProjectStatistics.m in Sources */,
+				D89882EC10135FC800E8157B /* BMBActivityWindow.m in Sources */,
+				D81554151094DE2C00698637 /* BMBSoftwareUpdatesController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D84452941079142D001FE89D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* BOINCMenubar 2 */;
+			targetProxy = D84452931079142D001FE89D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D812AAC80DC70B4F002F4A3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D812AABF0DC70AF0002F4A3B /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D81554111094DDFE00698637 /* BMBSoftwareUpdates.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D815540F1094DDF500698637 /* English */,
+			);
+			name = BMBSoftwareUpdates.xib;
+			sourceTree = "<group>";
+		};
+		D85F9A880FACFD9D00BBD8B2 /* BOINCSyncWithAccountManager.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85F9A700FACEE8A00BBD8B2 /* BOINCSyncWithAccountManager.xib */,
+			);
+			name = BOINCSyncWithAccountManager.xib;
+			sourceTree = "<group>";
+		};
+		D85F9A8C0FAD08B100BBD8B2 /* AccountManagerNotes.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85F9A8D0FAD08B100BBD8B2 /* English */,
+			);
+			name = AccountManagerNotes.html;
+			sourceTree = "<group>";
+		};
+		D86A34BE0F312BB600D78299 /* BOINCPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86A34BB0F312BAB00D78299 /* English */,
+			);
+			name = BOINCPreferences.xib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D86A37440F32F4E500D78299 /* BOINCNetworkPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D86A37420F32F4D900D78299 /* English */,
+			);
+			name = BOINCNetworkPreferences.xib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D88EB3E40EFC43BB00EB6EC9 /* ProjectDescription.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88EB3E20EFC43B300EB6EC9 /* English */,
+			);
+			name = ProjectDescription.html;
+			sourceTree = "<group>";
+		};
+		D893DA2C10011EA40054034A /* BOINCHostSelectionView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D893DA2A10011E9D0054034A /* English */,
+			);
+			name = BOINCHostSelectionView.xib;
+			sourceTree = "<group>";
+		};
+		D893DD381008D2EC0054034A /* credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87B726C0F1EC89700DDE1CA /* English */,
+			);
+			name = credits.rtf;
+			sourceTree = "<group>";
+		};
+		D897CE4D0EEC65A000196C14 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D897CE4E0EEC65A000196C14 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D897CEA90EEC9C9100196C14 /* OtherProjects.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8CC56DA0E99AF60008D5C48 /* English */,
+			);
+			name = OtherProjects.html;
+			sourceTree = "<group>";
+		};
+		D897CEAB0EEC9CA700196C14 /* NoProjectDescription.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8CC56E20E99B1AB008D5C48 /* English */,
+			);
+			name = NoProjectDescription.html;
+			sourceTree = "<group>";
+		};
+		D8A821A70FA929240043E41A /* BMBEditHostInformationSheet.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87A86180F0DDC970075E392 /* English */,
+			);
+			name = BMBEditHostInformationSheet.xib;
+			sourceTree = "<group>";
+		};
+		D8A821A90FA9293F0043E41A /* BMBHostsPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87A86170F0DDC970075E392 /* English */,
+			);
+			name = BMBHostsPreferences.xib;
+			sourceTree = "<group>";
+		};
+		D8A821AB0FA929490043E41A /* BMBAdvancedPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D870A2890E981F29002CE95D /* English */,
+			);
+			name = BMBAdvancedPreferences.xib;
+			sourceTree = "<group>";
+		};
+		D8A821AD0FA929570043E41A /* BMBAppearancePreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84939A90F474D0C00BED889 /* English */,
+			);
+			name = BMBAppearancePreferences.xib;
+			sourceTree = "<group>";
+		};
+		D8A821AF0FA9295F0043E41A /* BMBGeneralPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D870A2830E981E03002CE95D /* English */,
+			);
+			name = BMBGeneralPreferences.xib;
+			sourceTree = "<group>";
+		};
+		D8A821B10FA929670043E41A /* BMBPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D870A2920E981FE6002CE95D /* English */,
+			);
+			name = BMBPreferences.xib;
+			sourceTree = "<group>";
+		};
+		D8A821B30FA929720043E41A /* BMBProjectMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D870A25C0E9818C6002CE95D /* English */,
+			);
+			name = BMBProjectMenu.xib;
+			sourceTree = "<group>";
+		};
+		D8A821B50FA9297C0043E41A /* BMBStatusMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D870A21D0E981121002CE95D /* English */,
+			);
+			name = BMBStatusMenu.xib;
+			sourceTree = "<group>";
+		};
+		D8A821B70FA929850043E41A /* AboutWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D870A20E0E9805B0002CE95D /* English */,
+			);
+			name = AboutWindow.xib;
+			sourceTree = "<group>";
+		};
+		D8A821B90FA9298D0043E41A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D870A2060E980344002CE95D /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D8A821BB0FA9299A0043E41A /* BOINCProjectsPreferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84856710E99ECC40011A4A1 /* BOINCProjectsPreferences.xib */,
+			);
+			name = BOINCProjectsPreferences.xib;
+			sourceTree = "<group>";
+		};
+		D8A821BD0FA929A40043E41A /* BOINCAttatchToProjectSheet.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81EA9FB0EA3451A0041AA58 /* BOINCAttatchToProjectSheet.xib */,
+			);
+			name = BOINCAttatchToProjectSheet.xib;
+			sourceTree = "<group>";
+		};
+		D8A821BF0FA929AD0043E41A /* BOINCAttachToAccountManager.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8A81EFC0FA4FBAE0043E41A /* BOINCAttachToAccountManager.xib */,
+			);
+			name = BOINCAttachToAccountManager.xib;
+			sourceTree = "<group>";
+		};
+		D8A821C10FA929B80043E41A /* BOINCLoginWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8C2C3770F18689E00ABE93A /* English */,
+			);
+			name = BOINCLoginWindow.xib;
+			sourceTree = "<group>";
+		};
+		D8D58CD80F3575BF0092476D /* Platform Names.xml */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D58CD60F3575B70092476D /* English */,
+			);
+			name = "Platform Names.xml";
+			sourceTree = "<group>";
+		};
+		D8DE4F120FA49F6900015959 /* AccountManagerDescription.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DE4F0E0FA49F6100015959 /* English */,
+			);
+			name = AccountManagerDescription.html;
+			sourceTree = "<group>";
+		};
+		D8DE4F140FA49F6900015959 /* AccountManagerWithoutDescription.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DE4F0F0FA49F6100015959 /* English */,
+			);
+			name = AccountManagerWithoutDescription.html;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CODE_SIGN_IDENTITY = Brotherbard;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Resources\"",
+					"\"$(SRCROOT)/../FeedbackReporter\"",
+					"\"$(SRCROOT)/..\"",
+				);
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BOINCMenubar_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IBC_NOTICES = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "BOINCMenubar 2";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wshadow",
+					"-Wundef",
+					"-Wwrite-strings",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = Brotherbard;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../FeedbackReporter\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BOINCMenubar_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "BOINCMenubar 2";
+				STRIP_STYLE = all;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_64_BIT)",
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DEBUGGING_SYMBOLS = default;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					BBDEBUG,
+					NS_BUILD_32_LIKE_64,
+				);
+				GCC_USE_STANDARD_INCLUDE_SEARCHING = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_PROTOTYPE_CONVERSION = NO;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PROFILING_CODE = YES;
+				IBC_FLATTEN_NIBS = NO;
+				IBC_NOTICES = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = macosx10.5;
+				STRIP_INSTALLED_PRODUCT = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wshadow",
+					"-Wundef",
+					"-Wwrite-strings",
+					"-Wno-unused-parameter",
+				);
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_64_BIT)",
+					ppc,
+				);
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DEBUGGING_SYMBOLS = default;
+				GCC_DYNAMIC_NO_PIC = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = NS_BUILD_32_LIKE_64;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				GCC_WARN_EFFECTIVE_CPLUSPLUS_VIOLATIONS = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GCC_WARN_UNUSED_FUNCTION = NO;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				IBC_FLATTEN_NIBS = NO;
+				OTHER_CFLAGS = "";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = macosx10.5;
+				SEPARATE_STRIP = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				STRIP_STYLE = all;
+				WARNING_CFLAGS = "";
+			};
+			name = Release;
+		};
+		D844529110791422001FE89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D844529210791422001FE89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BOINCMenubar 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BOINCMenubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84452951079144B001FE89D /* Build configuration list for PBXAggregateTarget "Distribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D844529110791422001FE89D /* Debug */,
+				D844529210791422001FE89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

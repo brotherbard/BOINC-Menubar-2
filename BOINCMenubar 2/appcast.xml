@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+	<channel>
+		<title>BOINCMenubar 2 Changelog</title>
+		<link>http://sparkle.brotherbard.com/boincmenubar/appcast.xml</link>
+		<description>Most recent changes with links to updates.</description>
+		<language>en</language>
+		<item>
+            <title>Version 0.1.17b</title>
+            <sparkle:releaseNotesLink>http://sparkle.brotherbard.com/boincmenubar/release-notes.html#version-0.1.17b</sparkle:releaseNotesLink>
+            <pubDate>Fri, 04 Dec 2009 09:20:08 -0700</pubDate>
+            <enclosure
+                url="http://sparkle.brotherbard.com/boincmenubar/BOINCMenubar_0.1.17b.zip"
+                type="application/octet-stream"
+                length="1782901"
+                sparkle:version="101"
+                sparkle:shortVersionString="0.1.17b"
+                sparkle:dsaSignature="MC0CFQDvfXO7ZilRz1Ty4i2VOGt9hC1inAIUMRhPwGs/0dKm1r1sZELCaLyae50="
+            />
+        </item>
+	</channel>
+</rss>

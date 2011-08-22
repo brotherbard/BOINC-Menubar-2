@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<boinc_platforms>
+	<platform>
+		<platform_name>windows_intelx86</platform_name>
+		<operating_system_name>Windows 98+</operating_system_name>
+		<architecture_name>x86</architecture_name>
+        <user_friendly_name>Microsoft Windows (98 or later) running on an Intel x86-compatible CPU</user_friendly_name>
+	</platform>
+	<platform>
+		<platform_name>windows_amd64</platform_name>
+		<operating_system_name>Windows</operating_system_name>
+		<architecture_name>AMD64</architecture_name>
+        <user_friendly_name>Microsoft Windows running on an AMD x86_64 CPU</user_friendly_name>
+		<supported_platform>windows_intelx86</supported_platform>
+	</platform>
+	<platform>
+		<platform_name>windows_x86_64</platform_name>
+		<operating_system_name>Windows</operating_system_name>
+		<architecture_name>x86_64 or EM64T</architecture_name>
+        <user_friendly_name>Microsoft Windows running on an AMD x86_64 or Intel EM64T CPU</user_friendly_name>
+		<supported_platform>windows_intelx86</supported_platform>
+	</platform>
+	<platform>
+		<platform_name>i686-pc-linux-gnu</platform_name>
+		<operating_system_name>Linux</operating_system_name>
+		<architecture_name>x86</architecture_name>
+        <user_friendly_name>Linux running on an Intel x86-compatible CPU</user_friendly_name>
+	</platform>
+	<platform>
+		<platform_name>x86_64-pc-linux-gnu</platform_name>
+		<operating_system_name>Linux</operating_system_name>
+		<architecture_name>x86_64 or EM64T</architecture_name>
+        <user_friendly_name>Linux running on an AMD x86_64 or Intel EM64T CPU</user_friendly_name>
+		<supported_platform>i686-pc-linux-gnu</supported_platform>
+	</platform>
+	<platform>
+		<platform_name>x86_64-unknown-linux-gnu</platform_name>
+		<operating_system_name>Linux</operating_system_name>
+		<architecture_name>x86_64 or EM64T</architecture_name>
+        <user_friendly_name>Linux running on an AMD x86_64 or Intel EM64T CPU</user_friendly_name>
+		<supported_platform>i686-pc-linux-gnu</supported_platform>
+	</platform>
+	<platform>
+		<platform_name>powerpc64-ps3-linux-gnu</platform_name>
+		<operating_system_name>Linux</operating_system_name>
+		<architecture_name>Sony Playstation 3</architecture_name>
+        <user_friendly_name>Sony Playstation 3 running Linux</user_friendly_name>
+	</platform>
+	<platform>
+		<platform_name>powerpc-apple-darwin</platform_name>
+		<operating_system_name>Mac OS X 10.3+</operating_system_name>
+		<architecture_name>PowerPC</architecture_name>
+        <user_friendly_name>Mac OS X 10.3 or later running on Motorola PowerPC CPU</user_friendly_name>
+	</platform>
+	<platform>
+		<platform_name>i686-apple-darwin</platform_name>
+		<operating_system_name>Mac OS X 10.4+</operating_system_name>
+		<architecture_name>Intel</architecture_name>
+        <user_friendly_name>Mac OS 10.4 or later running on Intel CPU</user_friendly_name>
+		<supported_platform>powerpc-apple-darwin</supported_platform>
+	</platform>
+	<platform>
+		<platform_name>x86_64-apple-darwin</platform_name>
+		<operating_system_name>Mac OS X 10.5+</operating_system_name>
+		<architecture_name>Intel 64-bit</architecture_name>
+        <user_friendly_name>Mac OS 10.5 or later running on Intel 64-bit CPU</user_friendly_name>
+		<supported_platform>powerpc-apple-darwin</supported_platform>
+		<supported_platform>i686-apple-darwin</supported_platform>
+	</platform>
+	<platform>
+		<platform_name>sparc-sun-solaris2.7</platform_name>
+		<operating_system_name>Solaris 2.7</operating_system_name>
+		<architecture_name>SPARC</architecture_name>
+        <user_friendly_name>Solaris 2.7 running on a SPARC-compatible CPU</user_friendly_name>
+	</platform>
+	<platform>
+		<platform_name>sparc-sun-solaris</platform_name>
+		<operating_system_name>Solaris 2.8+</operating_system_name>
+		<architecture_name>SPARC</architecture_name>
+        <user_friendly_name>Solaris 2.8 or later running on a SPARC-compatible CPU</user_friendly_name>
+	</platform>
+	<platform>
+		<platform_name>sparc64-sun-solaris</platform_name>
+		<operating_system_name>Solaris 2.8+</operating_system_name>
+		<architecture_name>SPARC 64-bit</architecture_name>
+        <user_friendly_name>Solaris 2.8 or later running on a SPARC 64-bit CPU</user_friendly_name>
+		<supported_platform>sparc-sun-solaris</supported_platform>
+	</platform>
+	<platform>
+		<platform_name>i386-unknown-freebsd</platform_name>
+		<operating_system_name>FreeBSD</operating_system_name>
+		<architecture_name>i386</architecture_name>
+        <user_friendly_name>FreeBSD running on an x86-compatible CPU</user_friendly_name>
+	</platform>
+	<platform>
+		<platform_name>i386-portbld-freebsd</platform_name>
+		<operating_system_name>FreeBSD</operating_system_name>
+		<architecture_name>i386</architecture_name>
+        <user_friendly_name>FreeBSD (portbld) running on an x86-compatible CPU</user_friendly_name>
+	</platform>
+	<platform>
+		<platform_name>amd64-unknown-freebsd</platform_name>
+		<operating_system_name>FreeBSD</operating_system_name>
+		<architecture_name>AMD64</architecture_name>
+        <user_friendly_name>FreeBSD running on an AMD x86_64 CPU</user_friendly_name>
+		<supported_platform>i386-unknown-freebsd</supported_platform>
+	</platform>
+	<platform>
+		<platform_name>amd64-portbld-freebsd</platform_name>
+		<operating_system_name>FreeBSD</operating_system_name>
+		<architecture_name>AMD64</architecture_name>
+        <user_friendly_name>FreeBSD (portbld) running on an AMD x86_64 CPU</user_friendly_name>
+		<supported_platform>i386-portbld-freebsd</supported_platform>
+	</platform>
+	<platform>
+		<platform_name>anonymous</platform_name>
+		<operating_system_name>Anonymous</operating_system_name>
+		<architecture_name>Any</architecture_name>
+        <user_friendly_name>Anonymous</user_friendly_name>
+	</platform>
+	<platform>
+		<platform_name>unknown</platform_name>
+		<operating_system_name>Unknown</operating_system_name>
+        <user_friendly_name>Unknown</user_friendly_name>
+	</platform>
+</boinc_platforms>

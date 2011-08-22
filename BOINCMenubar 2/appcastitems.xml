@@ -1,0 +1,13 @@
+<item>
+	<title>Version 0.1.17b</title>
+	<sparkle:releaseNotesLink>http://sparkle.brotherbard.com/boincmenubar/release-notes.html#version-0.1.17b</sparkle:releaseNotesLink>
+	<pubDate>Fri, 04 Dec 2009 09:20:08 -0700</pubDate>
+	<enclosure
+		url="http://sparkle.brotherbard.com/boincmenubar/BOINCMenubar_0.1.17b.zip"
+		type="application/octet-stream"
+		length="1782901"
+		sparkle:version="101"
+		sparkle:shortVersionString="0.1.17b"
+		sparkle:dsaSignature="MC0CFQDvfXO7ZilRz1Ty4i2VOGt9hC1inAIUMRhPwGs/0dKm1r1sZELCaLyae50="
+	/>
+</item>

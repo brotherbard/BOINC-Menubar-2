@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+		<key>TicketVersion</key>
+		<integer>1</integer>
+		<key>AllNotifications</key>
+		<array>
+			<string>Network Connection</string>
+			<string>Project Credit Milestones</string>
+			<string>Host Credit Milestones</string>
+            <string>Workunits and Results</string>
+		</array>
+		<key>DefaultNotifications</key>
+		<array>
+			<string>Network Connection</string>
+			<string>Project Credit Milestones</string>
+            <string>Workunits and Results</string>
+		</array>
+    </dict>
+</plist>
