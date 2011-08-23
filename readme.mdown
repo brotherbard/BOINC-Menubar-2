@@ -6,6 +6,6 @@ There is a preference panel for setting up BOINCMenubar, for setting up all the 
 
 To learn more about BOINC:
 
-[UC Berkeley's BOINC wiki](http://boinc.berkeley.edu/wiki/Main_Page "BOINC wiki at UC Berkeley")
-[Berkeley Open Infrastructure for Network Computing](http://en.wikipedia.org/wiki/Berkeley_Open_Infrastructure_for_Network_Computing "Berkeley Open Infrastructure for Network Computing at Wikipedia") at Wikipedia
-[Unofficial BOINC Wiki](http://www.boinc-wiki.info/ "Unofficial BOINC Wiki")
+* [UC Berkeley's BOINC wiki](http://boinc.berkeley.edu/wiki/Main_Page "BOINC wiki at UC Berkeley")
+* [Berkeley Open Infrastructure for Network Computing](http://en.wikipedia.org/wiki/Berkeley_Open_Infrastructure_for_Network_Computing "Berkeley Open Infrastructure for Network Computing at Wikipedia") at Wikipedia
+* [Unofficial BOINC Wiki](http://www.boinc-wiki.info/ "Unofficial BOINC Wiki")
